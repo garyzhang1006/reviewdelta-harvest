@@ -1,0 +1,15 @@
+{
+ "protocol": "author judged each of 119 classified drops from the evidence row: v1 context window, numerically-equal variant strings in vN, vN value at the same anchored cell, and row-label survival. A classification counts wrong when the evidence supports a different category.",
+ "n": 119,
+ "agree": 115,
+ "agreement": 0.966,
+ "errors": [
+  {"index": 18, "classifier": "formatting", "correct": "gone", "cause": "single-digit value 4.0 matched stray '4'/'04' elsewhere in vN"},
+  {"index": 67, "classifier": "formatting", "correct": "gone", "cause": "0.0 temperature matched stray '0'/'000'"},
+  {"index": 94, "classifier": "formatting", "correct": "gone", "cause": "0.00 matched stray '0'"},
+  {"index": 118, "classifier": "formatting", "correct": "row-change", "cause": "3.0 matched stray '3'/'3.'"}
+ ],
+ "borderline_accepted": [5, 7, 97, 111, 116],
+ "direction": "all four errors over-call formatting on short values, so the 7.3% formatting share is an upper estimate and the claim-change share a lower one",
+ "sample_file": "drop_labels_sample.json (seed 7, 30 papers with >=3 drops, up to 4 drops each)"
+}

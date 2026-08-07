@@ -1,0 +1,198 @@
+[
+ {
+  "id": "2505.05082",
+  "comment": "Published in NeurIPS 2025",
+  "title": "ItDPDM: Information-Theoretic Discrete Poisson Diffusion Model",
+  "or_match": "6ZkcC9NmGU",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2509.10625",
+  "comment": "Accepted (poster) to Principled Design for Trustworthy AI at ICLR 2026",
+  "title": "No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes",
+  "or_match": "1QcY6LPcdQ",
+  "or_venue": "ICLR 2026 Trustworthy AI"
+ },
+ {
+  "id": "2507.18624",
+  "comment": "Presented at NeurIPS 2025",
+  "title": "Checklists Are Better Than Reward Models For Aligning Language Models",
+  "or_match": "RPRqKhjrr6",
+  "or_venue": "NeurIPS 2025 spotlight"
+ },
+ {
+  "id": "2509.02123",
+  "comment": "Published at ICLR 2026 Workshop on Multimodal Intelligence",
+  "title": "CMRAG: Co-modality-based visual document retrieval and question answering",
+  "or_match": "JSLI85Oj5o",
+  "or_venue": "CoRR 2025"
+ },
+ {
+  "id": "2501.00919",
+  "comment": "Presented at NeuReps workshop, NeurIPS 2024",
+  "title": "Geometry matters: insights from Ollivier Ricci Curvature and Ricci Flow into representational alignment through Ollivier-Ricci Curvature and Ricci Flow",
+  "or_match": null,
+  "or_venue": null
+ },
+ {
+  "id": "2503.05157",
+  "comment": "Published as a conference paper at COLM 2025",
+  "title": "Ensemble Debiasing Across Class and Sample Levels for Fairer Prompting Accuracy",
+  "or_match": "63c7hTrUCh",
+  "or_venue": "COLM 2025"
+ },
+ {
+  "id": "2507.02834",
+  "comment": "Accepted to NeurIPS 2025 (Poster). Code available at this https URL",
+  "title": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning",
+  "or_match": "D1PeGJtVEu",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2503.01919",
+  "comment": "To appear at ICLR 2025. Code at this https URL",
+  "title": "Reinforcement learning with combinatorial actions for coupled restless bandits",
+  "or_match": "DhH3LbA6F6",
+  "or_venue": "ICLR 2025 Poster"
+ },
+ {
+  "id": "2503.05315",
+  "comment": "Accepted at the Deep Learning for Code (DL4C) Workshop at ICLR 2025",
+  "title": "LoRACode: LoRA Adapters for Code Embeddings",
+  "or_match": "wwjpujKyV0",
+  "or_venue": "CoRR 2025"
+ },
+ {
+  "id": "2503.08796",
+  "comment": "Accepted to ICLR 2026",
+  "title": "Robust Multi-Objective Controlled Decoding of Large Language Models",
+  "or_match": "i0Nno5MgXt",
+  "or_venue": "ICLR 2026 Poster"
+ },
+ {
+  "id": "2505.15210",
+  "comment": "Accepted by NeurIPS 2025",
+  "title": "Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs",
+  "or_match": "nPp0jTW9ob",
+  "or_venue": "NeurIPS 2025"
+ },
+ {
+  "id": "2505.15424",
+  "comment": "Accepted to NeurIPS 2025",
+  "title": "Gated Integration of Low-Rank Adaptation for Continual Learning of Large Language Models",
+  "or_match": "lVV7F0piDK",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2507.02974",
+  "comment": "Published at NeurIPS 2025",
+  "title": "InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy",
+  "or_match": "B4NT8TexNS",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2503.14411",
+  "comment": "Accepted by NeurIPS 2025",
+  "title": "Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with Large Language Models",
+  "or_match": "9env0BdcDV",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2507.04219",
+  "comment": "Accepted at ICLR 2026",
+  "title": "Model Collapse Is Not a Bug but a Feature in Machine Unlearning for LLMs",
+  "or_match": "1MCQzboBrR",
+  "or_venue": "ICLR 2026 Poster"
+ },
+ {
+  "id": "2501.01317",
+  "comment": "Accepted to ICLR 2026 as an Oral Presentation",
+  "title": "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective",
+  "or_match": "5LMdnUdAoy",
+  "or_venue": "ICLR 2026 Oral"
+ },
+ {
+  "id": "2501.00656",
+  "comment": "Shorter version accepted to COLM 2025. Updated to include 32B results. Model demo available at this http URL",
+  "title": "2 OLMo 2 Furious",
+  "or_match": "ay0BwTKfp3",
+  "or_venue": "CoRR 2025"
+ },
+ {
+  "id": "2505.00787",
+  "comment": "To appear in the Proceedings of the Thirty-ninth Conference on Neural Information Processing Systems (NeurIPS), 2025",
+  "title": "Constructing an Optimal Behavior Basis for the Option Keyboard",
+  "or_match": "D4gOopmVT2",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2509.12178",
+  "comment": "Accepted at Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+  "title": "All that structure matches does not glitter",
+  "or_match": "ig9ujp50D4",
+  "or_venue": "NeurIPS 2025 Datasets and Benchmarks Track poster"
+ },
+ {
+  "id": "2503.01822",
+  "comment": "Published in NeurIPS 2025 (poster)",
+  "title": "Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry",
+  "or_match": "SoA8rMxDaF",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2505.14604",
+  "comment": "Accepted to NeurIPS 2025; Camera ready version, 10 pages. Github:this https URL Project Page: this https URL",
+  "title": "Let LRMs Break Free from Overthinking via Self-Braking Tuning",
+  "or_match": "u3a2AX0icx",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2507.09768",
+  "comment": "Accepted at ICLR 2026",
+  "title": "Knowing When to Quit: Probabilistic Early Exits for Speech Separation",
+  "or_match": null,
+  "or_venue": null
+ },
+ {
+  "id": "2503.10542",
+  "comment": "ACL 2025 Main. A camera-ready version will follow in a few weeks. A reduced version of this work was also accepted to th",
+  "title": "Language Models, Graph Searching, and Supervision Adulteration: When More Supervision is Less and How to Make More More",
+  "or_match": null,
+  "or_venue": null
+ },
+ {
+  "id": "2509.05193",
+  "comment": "63 pages, 11 figures. Accepted to NeurIPS 2025 (Spotlight)",
+  "title": "Shift Before You Learn: Enabling Low-Rank Representations in Reinforcement Learning",
+  "or_match": "loVvFhfsDf",
+  "or_venue": "NeurIPS 2025 spotlight"
+ },
+ {
+  "id": "2507.00322",
+  "comment": "23 pages, 10 figures, accepted for NeurIPS 2025",
+  "title": "Failure by Interference: Language Models Make Balanced Parentheses Errors When Faulty Mechanisms Overshadow Sound Ones",
+  "or_match": "1t4hR9JCcS",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2505.10039",
+  "comment": "accepted by NeurIPS 2025 (poster)",
+  "title": "Rethinking Circuit Completeness in Language Models: AND, OR, and ADDER Gates",
+  "or_match": "1WkolvkTVi",
+  "or_venue": "NeurIPS 2025 poster"
+ },
+ {
+  "id": "2509.15148",
+  "comment": "Accepted by ICLR 2026",
+  "title": "ATTS: Asynchronous Test-Time Scaling via Conformal Prediction",
+  "or_match": "YM3SskmtCE",
+  "or_venue": "ICLR 2026 Poster"
+ },
+ {
+  "id": "2507.08838",
+  "comment": "Accepted to ICLR 2026",
+  "title": "wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models",
+  "or_match": "L2rfd2Czbj",
+  "or_venue": "ICLR 2026 Poster"
+ }
+]

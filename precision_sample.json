@@ -1,0 +1,902 @@
+[
+ {
+  "paper": "2507.07032",
+  "kind": "tabular",
+  "value": "66.349",
+  "context": "12 & 0.533 & 12.692 & 0.563 & 0.473\\\\ \\textbf{HiFiAD} & 66.349 & 0.534 & 0.553 & 11.755 & 0.581 & 0.506 \\\\ \\hlin"
+ },
+ {
+  "paper": "2507.07032",
+  "kind": "tabular",
+  "value": "0.767",
+  "context": " \\textbf{pTM} \\\\ \\hline \\textbf{AF2 MSA} & 83.156 & 0.767 & 0.785 & 5.243 & 0.753 & 0.718 \\\\ \\textbf{PLAME} "
+ },
+ {
+  "paper": "2507.07032",
+  "kind": "tabular",
+  "value": "14.030",
+  "context": " & 0.406\\\\ \\textbf{8gzu\\_T3} & 59.533 & 0.591 & 0.668 & 14.030 & 0.659 & 0.597 \\\\ \\hline \\rowcolor{gray!20} "
+ },
+ {
+  "paper": "2507.07032",
+  "kind": "tabular",
+  "value": "0.406",
+  "context": "extbf{8gzu\\_AN} & 58.189 & 0.390 & 0.488 & 17.630 & 0.700 & 0.406\\\\ \\textbf{8gzu\\_T3} & 59.533 & 0.591 & 0.668 & 14."
+ },
+ {
+  "paper": "2505.04278",
+  "kind": "tabular",
+  "value": "13.613",
+  "context": "31 & 2.828 & 8.106 & 7.506 & 7.864 & 7.693 & 9.957 & 13.613 \\\\ \\midrule TimeDiff & CRPS & 0.465 & 0.47"
+ },
+ {
+  "paper": "2505.04278",
+  "kind": "tabular",
+  "value": "0.464",
+  "context": "3 \\\\ \\midrule TimeDiff & CRPS & 0.465 & 0.471 & 0.464 & 0.316 & 0.750 & 0.433 & 1.153 & 0.700 & 0.771 "
+ },
+ {
+  "paper": "2505.04278",
+  "kind": "tabular",
+  "value": "181.83",
+  "context": "4 & 192 & 3.94 \\\\ Traffic & 862 & 17,544 & 192 & 181.83 \\\\ Solar & 137 & 52,560 & 192 & 0.92 \\\\ "
+ },
+ {
+  "paper": "2505.04278",
+  "kind": "tabular",
+  "value": "1.069",
+  "context": " \\midrule CSDI & MSE & 0.708 & 0.900 & 0.752 & 1.069 & 0.822 & 1.081 & 1.481 & 0.675 & 0.925 \\\\ ("
+ },
+ {
+  "paper": "2507.18624",
+  "kind": "tabular",
+  "value": "61.3",
+  "context": "stilled) & \\textcolor{neutral}{71.1} & \\textcolor{positive}{61.3} & \\textcolor{negative}{85.3} & \\textcolor{positive}{80"
+ },
+ {
+  "paper": "2507.18624",
+  "kind": "tabular",
+  "value": "56.5",
+  "context": "}{67.4} & \\textcolor{positive}{62.9} & \\textcolor{negative}{56.5} & \\textcolor{negative}{69.5} & \\textcolor{negative}{2."
+ },
+ {
+  "paper": "2507.18624",
+  "kind": "tabular",
+  "value": "67.4",
+  "context": "e}{79.6} & \\textcolor{neutral}{81.1} & \\textcolor{negative}{67.4} & \\textcolor{positive}{62.9} & \\textcolor{negative}{56"
+ },
+ {
+  "paper": "2507.18624",
+  "kind": "tabular",
+  "value": "79.9",
+  "context": "}{71.5} & \\textcolor{negative}{69.1} & \\textcolor{negative}{79.9} & \\textcolor{negative}{77.7} & \\textcolor{negative}{74"
+ },
+ {
+  "paper": "2505.11304",
+  "kind": "tabular",
+  "value": "1.45",
+  "context": "t{0.5} (1.33$\\times$)} & 8982.4 \\small {\\transparent{0.5} (1.45$\\times$)} & 88\\small {\\transparent{0.5} (1.72$\\times$)"
+ },
+ {
+  "paper": "2505.11304",
+  "kind": "tabular",
+  "value": "1.0",
+  "context": " (1.0$\\times$)} & \\textbf{12837.2\\small {\\transparent{0.5} (1.0$\\times$)}}\\\\ \\texttt{FedAvg} & 92\\small {\\transpa"
+ },
+ {
+  "paper": "2505.11304",
+  "kind": "tabular",
+  "value": "0.5",
+  "context": "tgray} \\texttt{FedACS} & \\textbf{64\\small {\\transparent{0.5} (1.0$\\times$)}} &\\textbf{4307.7\\small {\\transparent{0.5"
+ },
+ {
+  "paper": "2505.11304",
+  "kind": "tabular",
+  "value": "1.70",
+  "context": "t{0.5} (1.46$\\times$)} & 6043.4 \\small {\\transparent{0.5} (1.70$\\times$)} & 161 \\small {\\transparent{0.5} (1.61$\\times"
+ },
+ {
+  "paper": "2509.08731",
+  "kind": "tabular",
+  "value": "0.013",
+  "context": "tbf{0.1528 $\\pm$ 0.009} & 0.3578 $\\pm$ 0.010 & 0.6423 $\\pm$ 0.013\\\\ \\bottomrule \\end{tabular} \\caption{KL di"
+ },
+ {
+  "paper": "2509.08731",
+  "kind": "tabular",
+  "value": "1.20",
+  "context": "\\tbf{0.5729} \\\\ \\hline \\multirow{5}{*}{$z = 1.20$} & \\multirow{2}{*}{Plug-in} & Split & 1.3221 & 1.4004 "
+ },
+ {
+  "paper": "2509.08731",
+  "kind": "tabular",
+  "value": "1.10",
+  "context": "o $\\uparrow$ \\\\ \\hline \\multirow{5}{*}{$z = 1.10$} & \\multirow{2}{*}{Plug-in} & Split & 1.1610 & 0.3501 "
+ },
+ {
+  "paper": "2509.08731",
+  "kind": "tabular",
+  "value": "0.010",
+  "context": "ence $\\downarrow$ & \\tbf{0.1528 $\\pm$ 0.009} & 0.3578 $\\pm$ 0.010 & 0.6423 $\\pm$ 0.013\\\\ \\bottomrule \\end{tabula"
+ },
+ {
+  "paper": "2503.01919",
+  "kind": "tabular",
+  "value": "475.2",
+  "context": "=20$ & $J=40$ & $J=100$ \\\\ \\midrule 25.5 & 76.7 & 475.2 \\\\ \\bottomrule \\end{tabular} \\end{table} "
+ },
+ {
+  "paper": "2503.01919",
+  "kind": "tabular",
+  "value": "2.5",
+  "context": " $0.05$; 1000 rate of exponential decay \\\\ Learning rate & $2.5 \\times 10^{-4}$ \\\\ Adam $\\epsilon$ & $1.5 \\times 10^{-4}"
+ },
+ {
+  "paper": "2503.01919",
+  "kind": "tabular",
+  "value": "76.7",
+  "context": " $J=20$ & $J=40$ & $J=100$ \\\\ \\midrule 25.5 & 76.7 & 475.2 \\\\ \\bottomrule \\end{tabular} \\end{table} "
+ },
+ {
+  "paper": "2503.01919",
+  "kind": "tabular",
+  "value": "0.05",
+  "context": " 0.99 \\\\ Epsilon greedy $\\epsilon$ & $0.9$ starting; final $0.05$; 1000 rate of exponential decay \\\\ Learning rate & $2."
+ },
+ {
+  "paper": "2505.02172",
+  "kind": "pct_pm",
+  "value": "58.0",
+  "context": "racy & \\# of Questions \\\\ \\midrule 1 & 92.1\\% & 2165 \\\\ 2 & 58.0\\% & 1987 \\\\ 3 & 40.4\\% & 923 \\\\ 4 & 29.9\\% & 221 \\\\ 5 &"
+ },
+ {
+  "paper": "2505.02172",
+  "kind": "pct_pm",
+  "value": "17.4",
+  "context": "8.0\\% & 1987 \\\\ 3 & 40.4\\% & 923 \\\\ 4 & 29.9\\% & 221 \\\\ 5 & 17.4\\% & 18 \\\\ \\bottomrule \\end{tabular} \\caption{In many c"
+ },
+ {
+  "paper": "2505.02172",
+  "kind": "pct_pm",
+  "value": "70.0",
+  "context": "} and \\texttt{NovaMicro} models produced the same answer in 70.0\\% of cases. All model pairs produced the same answer mo"
+ },
+ {
+  "paper": "2505.02172",
+  "kind": "pct_pm",
+  "value": "29.9",
+  "context": ".1\\% & 2165 \\\\ 2 & 58.0\\% & 1987 \\\\ 3 & 40.4\\% & 923 \\\\ 4 & 29.9\\% & 221 \\\\ 5 & 17.4\\% & 18 \\\\ \\bottomrule \\end{tabular}"
+ },
+ {
+  "paper": "2505.11959",
+  "kind": "tabular",
+  "value": "0.49",
+  "context": " 0.44 & 0.49 & 0.45 & 0.49 \\\\ NB & 0.33 & 0"
+ },
+ {
+  "paper": "2505.11959",
+  "kind": "tabular",
+  "value": "0.26",
+  "context": " & 279 (0.48) \\\\ Spiritual & 864 (0.26) & 94 (0.16) \\\\ Solidarity"
+ },
+ {
+  "paper": "2505.11959",
+  "kind": "tabular",
+  "value": "0.008",
+  "context": " \\\\ Surprise & 1775 (0.06) & 36 (0.008) \\\\ Disgust & 6387 (0.23) "
+ },
+ {
+  "paper": "2505.11959",
+  "kind": "tabular",
+  "value": "43.1",
+  "context": "\\\\ CM vs. HS & 354.3, 0 & 56.3, 0 \\\\ CM vs. HSC & 40.7, 0 & 43.1, 0 \\\\ EC vs. HC & 810.3, 0 & 245.6, 0 \\\\ EC vs. HSC & 1"
+ },
+ {
+  "paper": "2501.00874",
+  "kind": "tabular",
+  "value": "54.38",
+  "context": "loom-7B* \\cite{zhang2023language} & 55.83 & 56.39 & 59.73 & 54.38 & 64.32 & 68.70 & 48.97 & 55.02 & 67.60 & 58.54 & 55.9"
+ },
+ {
+  "paper": "2501.00874",
+  "kind": "tabular",
+  "value": "50.00",
+  "context": " SIB200Classification & 80.88 & 80.44 \\\\ indonli & 50.00 & 50.22 \\\\ SIB200ClusteringS2S & 46.46 & 47.50 \\\\"
+ },
+ {
+  "paper": "2501.00874",
+  "kind": "tabular",
+  "value": "69.30",
+  "context": "} & \\bf{72.83} & \\bf{65.23} & \\bf{62.37} & \\bf{58.43} & \\bf{69.30} & \\bf{53.12} & \\bf{62.63} \\\\ \\bottomrule \\end"
+ },
+ {
+  "paper": "2501.00874",
+  "kind": "tabular",
+  "value": "40.40",
+  "context": "\\ BGE-en-1.5 \\cite{bge_embedding} & 16.64 & 31.19 & 40.40 & 50.77 & 1.11 & 28.02\\\\ E5-large \\cite{wang20"
+ },
+ {
+  "paper": "2501.12689",
+  "kind": "tabular",
+  "value": "27.87",
+  "context": "ne{-0.8228} & \\textbf{-0.2701} \\\\ Win rates(\\%) & 27.87 & \\underline{29.11} & \\textbf{47.03} \\\\ "
+ },
+ {
+  "paper": "2501.12689",
+  "kind": "tabular",
+  "value": "56.35",
+  "context": "2972} \\\\ Win rates(\\%) & 41.54 & 52.63 & \\underline{56.35} & \\textbf{62.40} \\\\ \\bottomrule \\end{tabu"
+ },
+ {
+  "paper": "2501.12689",
+  "kind": "tabular",
+  "value": "1.5",
+  "context": "14.0B & 1 * A100 \\\\ \\hline \\multirow{2}{*}{Gemini} & gemini-1.5-flash-002 & confidential & N/A \\\\ & gemini-1.5-pro-002 "
+ },
+ {
+  "paper": "2501.12689",
+  "kind": "tabular",
+  "value": "29.11",
+  "context": "0.2701} \\\\ Win rates(\\%) & 27.87 & \\underline{29.11} & \\textbf{47.03} \\\\ \\bottomrule \\end{t"
+ },
+ {
+  "paper": "2503.02878",
+  "kind": "tabular",
+  "value": "49.5",
+  "context": " & Reflexion & \\texttt{gpt-3.5-turbo} & --- & 58.5 & 24.0 &49.5&16.4\\\\ \\cdashline{2-8} & LATS$^\\dag$ & \\texttt{gpt-3"
+ },
+ {
+  "paper": "2503.02878",
+  "kind": "tabular",
+  "value": "72.4",
+  "context": "-3.5-turbo} & 77.4\\textbf{***} & \\textbf{46.0}\\textbf{***}&72.4\\textbf{***}&38.8\\textbf{***}\\\\ & &\\texttt{gpt-4o} & \\"
+ },
+ {
+  "paper": "2503.02878",
+  "kind": "tabular",
+  "value": "3.1",
+  "context": "**}&40.6\\textbf{***}\\\\ & & \\texttt{gpt-4o} & \\texttt{llama-3.1-8b-instruct} & 71.6 & 28.0&67.2&25.8\\\\ &&\\texttt{gpt"
+ },
+ {
+  "paper": "2503.02878",
+  "kind": "tabular",
+  "value": "3.5",
+  "context": "6.0} &\\underline{67.7}&\\underline{26.4}\\\\ & & \\texttt{gpt-3.5-turbo} & \\texttt{r1-distill-llama-8b} & {68.4} & {24.0} "
+ },
+ {
+  "paper": "2507.05195",
+  "kind": "tabular",
+  "value": "0.791",
+  "context": " & 1.234 & 0.978 \\\\ \\midrule \\textsc{Pythia-410M} & 0.791 & 1.065 & 0.945 \\\\ \\bottomrule \\end{tabular} \\"
+ },
+ {
+  "paper": "2507.05195",
+  "kind": "tabular",
+  "value": "300.0",
+  "context": ".00 \\\\ Pythia-2.8B & 2.80 & 300.0 & 5040.00 \\\\ Pythia-6.9B & "
+ },
+ {
+  "paper": "2507.05195",
+  "kind": "tabular",
+  "value": "4000.0",
+  "context": "0.00 \\\\ Qwen1.5-14B & 14.20 & 4000.0 & 340800.00 \\\\ Qwen1.5-0.5B-IT & "
+ },
+ {
+  "paper": "2507.05195",
+  "kind": "tabular",
+  "value": "3600.0",
+  "context": "6.00 \\\\ Yi-1.5-9B & 8.83 & 3600.0 & 190728.00 \\\\ Yi-1.5-9B-IT & "
+ },
+ {
+  "paper": "2501.01669",
+  "kind": "tabular",
+  "value": "123.55",
+  "context": " 5052.25 $\\pm$ 25.39 & 5499.07 $\\pm$ 156.06 & 7589.52 $\\pm$ 123.55 \\\\ \\bottomrule \\end{tabul"
+ },
+ {
+  "paper": "2501.01669",
+  "kind": "tabular",
+  "value": "1415.76",
+  "context": "232.84 \\\\ AIRL & 1918.28 $\\pm$ 76.32 & 1415.76 $\\pm$ 83.78 & 947.00 $\\pm$ 37.84 \\\\ "
+ },
+ {
+  "paper": "2501.01669",
+  "kind": "tabular",
+  "value": "4548.23",
+  "context": "KLD}} = 0.25$ & 4430.26 $\\pm$ 62.69 & 4234.33 $\\pm$ 84.04 & 4548.23 $\\pm$ 44.49 \\\\ $\\lambda_{\\text{KLD}}"
+ },
+ {
+  "paper": "2501.01669",
+  "kind": "tabular",
+  "value": "173.76",
+  "context": " & 251.38 $\\pm$ 153.73 & 204.79 $\\pm$ 131.10 & 166.73 $\\pm$ 173.76 \\\\ AIRL & 2573.91 $\\pm$ 82.45 &"
+ },
+ {
+  "paper": "2509.13007",
+  "kind": "tabular",
+  "value": "8.77",
+  "context": " {8.32} \\\\ \\midrule {\\textbf{Vanilla}} & {3.22} & {0.55} & {8.77} & {9.14} \\\\ {\\textbf{SISS}} & {3.21} & {0.45} & {9.05}"
+ },
+ {
+  "paper": "2509.13007",
+  "kind": "tabular",
+  "value": "6.32",
+  "context": "& 9.29 \\\\ \\midrule {NegGrad} & {4.33} & {0.23} & {81.02} & {6.32} \\\\ {EraseDiff} & {3.55} & {0.48} & {29.22} & {8.32} \\\\"
+ },
+ {
+  "paper": "2509.13007",
+  "kind": "tabular",
+  "value": "8.28",
+  "context": " 3.05 & 9.37 \\\\ \\textbf{Ours} & \\textbf{0.0000\\%} & \\textbf{8.28} & \\textbf{2.09} & 9.48 \\\\ \\bottomrule \\end{tabular} \\e"
+ },
+ {
+  "paper": "2509.13007",
+  "kind": "tabular",
+  "value": "8.29",
+  "context": "{IS}$\\uparrow$ \\\\ \\midrule \\textbf{\\textbf{1}} & 0.0000\\% & 8.29 & 2.22 & 9.48 \\\\ \\textbf{\\textbf{10}} & 0.0000\\% & 8.28"
+ },
+ {
+  "paper": "2503.10232",
+  "kind": "tabular",
+  "value": "85.7",
+  "context": "cal{F}\\) & \\(p^{\\mathcal{U}}_\\square\\) & 4 & 6.747e-01 & 85.7 & - \\\\ \\(q^{eucl}\\) & \\(p^{mog}_\\mathcal{F}\\) &"
+ },
+ {
+  "paper": "2503.10232",
+  "kind": "tabular",
+  "value": "1.7",
+  "context": "hcal{F}\\) & 4 & 6 & 512 & 1e-3 & 50 & 8192 & 213 & 12 & 1.7 \\\\ \\(q^{eucl}\\) & \\(p^{mog}_\\square\\) & 20 & 6"
+ },
+ {
+  "paper": "2503.10232",
+  "kind": "tabular",
+  "value": "63.3",
+  "context": "{F}\\) & \\(p^{\\mathcal{U}}_\\mathbb{B}\\) & 4 & 8.985e-01 & 63.3 & - \\\\ \\(q^{ait}\\) & \\(p^{mog}_\\mathcal{F}\\) & "
+ },
+ {
+  "paper": "2503.10232",
+  "kind": "tabular",
+  "value": "3.8",
+  "context": "athcal{F}\\) & 4 & 6 & 512 & 1e-3 & 35 & 8192 & 200 & 74 & 3.8 \\\\ \\(q^{ball}\\) & \\(p^{mog}_\\mathcal{F}\\) & 4 "
+ },
+ {
+  "paper": "2501.00919",
+  "kind": "tabular",
+  "value": "0.767",
+  "context": ".0ex}Human Judgment & 0.000 & 5 & 0.297 & 0.563 & 30.093 & 0.767\\\\ Aligned VGG-Face & 0.183 & 5 & 0.173 & 0.550 & 4"
+ },
+ {
+  "paper": "2501.00919",
+  "kind": "tabular",
+  "value": "0.386",
+  "context": " \\belowstrut{0.2ex}Original VGG-Face & 0.697 & 4 & 0.417 & 0.386 & 9.459 & 0.604\\\\\\hline \\end{tabular}} \\end{table}"
+ },
+ {
+  "paper": "2501.00919",
+  "kind": "tabular",
+  "value": "0.604",
+  "context": "2ex}Original VGG-Face & 0.697 & 4 & 0.417 & 0.386 & 9.459 & 0.604\\\\\\hline \\end{tabular}} \\end{table} \\sect"
+ },
+ {
+  "paper": "2501.00919",
+  "kind": "tabular",
+  "value": "40.126",
+  "context": " 0.767\\\\ Aligned VGG-Face & 0.183 & 5 & 0.173 & 0.550 & 40.126 & 0.827\\\\ \\belowstrut{0.2ex}Original VGG-Face & 0"
+ },
+ {
+  "paper": "2501.04967",
+  "kind": "tabular",
+  "value": "0.27",
+  "context": "{TADA (Ours)} & 0.69-0.82-0.90 & 0.85-0.57-0.57 & 0.94-0.34-0.27 & 393K+ \\\\ \\hline\\hline \\end{tabular} \\caption{Comparis"
+ },
+ {
+  "paper": "2501.04967",
+  "kind": "tabular",
+  "value": "0.40",
+  "context": "\\hline Novel CNN \\citep{Zhang2021a} & 0.69-0.72-0.65 & 0.89-0.40-0.45 & 0.92-0.33-0.30 & 58.7M \\\\ \\hline EEGIFNet \\citep"
+ },
+ {
+  "paper": "2501.04967",
+  "kind": "tabular",
+  "value": "0.93",
+  "context": ".32-unk & 5.9M \\\\ \\hline GCTNet \\citep{Yin2023} & unknown & 0.93-0.31-unk & 0.94-0.28-unk & $\\sim$10M \\\\ \\hline \\textbf{"
+ },
+ {
+  "paper": "2501.04967",
+  "kind": "pct_pm",
+  "value": "8.0",
+  "context": " of 0\\% at high SNR (2 dB), 1.0\\% at mid SNR (-2.5 dB), and 8.0\\% at low SNR (-7 dB). While the performance effect was m"
+ },
+ {
+  "paper": "2503.06444",
+  "kind": "tabular",
+  "value": "0.987",
+  "context": "91 \\\\ & Laplace & \\textbf{0.916} & \\textbf{0.987} & 0.991 \\\\ & Uniform & 0.913 & 0.985"
+ },
+ {
+  "paper": "2503.06444",
+  "kind": "tabular",
+  "value": "0.976",
+  "context": "extbf{0.999} & \\underline{0.996} & \\textbf{0.990} & \\textbf{0.976} & \\underline{$0.98\\%$} & \\underline{0.132} & \\underli"
+ },
+ {
+  "paper": "2503.06444",
+  "kind": "tabular",
+  "value": "0.972",
+  "context": "72 \\\\ & Uniform & \\textbf{0.984} & 0.998 & 0.972 \\\\ MA & Normal & \\textbf{0.995} & \\textbf{0."
+ },
+ {
+  "paper": "2503.06444",
+  "kind": "tabular",
+  "value": "0.620",
+  "context": " TabDDPM & 0.092 & 0.018 & 0.872 & 0.546 & 0.620 & $53.98\\%$& $<0$ & $<0$ & -\\\\ "
+ },
+ {
+  "paper": "2505.05406",
+  "kind": "tabular",
+  "value": "3.5",
+  "context": "1}{c}{\\multirow{3}{*}{None}} & \\\\ GPT-3.5-Turbo, GPT-4, & \\multicolumn{1}{c}{} "
+ },
+ {
+  "paper": "2505.05406",
+  "kind": "pct_pm",
+  "value": "19.27",
+  "context": "ifference is extremely statistically significant (95\\% CI: -19.27\\% to -7.78\\%). These results suggest that fine-tuning "
+ },
+ {
+  "paper": "2505.05406",
+  "kind": "pct_pm",
+  "value": "7.78",
+  "context": " extremely statistically significant (95\\% CI: -19.27\\% to -7.78\\%). These results suggest that fine-tuning on XSUM cont"
+ },
+ {
+  "paper": "2503.05157",
+  "kind": "tabular",
+  "value": "3.9",
+  "context": "multicolumn{1}{c|}{\\LARGE 22.1} & \\LARGE 19.1\\textsubscript{3.9} & \\LARGE 25.1\\textsubscript{19.5} \\\\ \\multicolumn{1}{l|"
+ },
+ {
+  "paper": "2503.05157",
+  "kind": "tabular",
+  "value": "79.0",
+  "context": "ulticolumn{1}{c|}{\\LARGE 73.6} & \\multicolumn{1}{c|}{\\LARGE 79.0} & \\LARGE 89.8\\textsubscript{0.2} & \\LARGE 96.5\\textsub"
+ },
+ {
+  "paper": "2503.05157",
+  "kind": "tabular",
+  "value": "50.0",
+  "context": "extsubscript{2.0} & \\LARGE 92.7\\textsubscript{0.2} & \\LARGE 50.0\\textsubscript{3.0} & \\LARGE 78.4\\textsubscript{2.4} & \\"
+ },
+ {
+  "paper": "2503.05157",
+  "kind": "tabular",
+  "value": "58.8",
+  "context": "y ($\\downarrow$20.8)}} & 76.2 & 13.7 & 82.8 & 40.0 & 76.7 & 58.8 \\\\ \\multirow{-3}{*}{5-shot} & \\multicolumn{1}{l|}{Z\\tex"
+ },
+ {
+  "paper": "2501.04652",
+  "kind": "tabular",
+  "value": "0.39",
+  "context": "tit{Table@5} \\\\ mGTE-base & 0.34 & 0.38 & 0.42 & 0.36 & 0.39 & 0.38 \\\\ Ours & \\textbf{0.65} & \\textbf{0.76} & \\t"
+ },
+ {
+  "paper": "2501.04652",
+  "kind": "tabular",
+  "value": "0.87",
+  "context": "0.66 \\\\ mGTE-base & 0.94 & 0.76 & \\textbf{0.90} & 0.87\\\\ Ours & \\textbf{0.98} & \\textbf{0.93} & \\textbf{0."
+ },
+ {
+  "paper": "2501.04652",
+  "kind": "tabular",
+  "value": "0.65",
+  "context": "34 & 0.38 & 0.42 & 0.36 & 0.39 & 0.38 \\\\ Ours & \\textbf{0.65} & \\textbf{0.76} & \\textbf{0.71} & \\textbf{0.62} & \\tex"
+ },
+ {
+  "paper": "2501.04652",
+  "kind": "tabular",
+  "value": "0.72",
+  "context": " BM25 & 0.82 & 0.79 & 0.26 \\\\ \\hline mE5-small & 0.72& 0.54 & 0.15 \\\\ mE5-base & 0.74 & 0.64 & 0.15 \\\\ "
+ },
+ {
+  "paper": "2503.14411",
+  "kind": "tabular",
+  "value": "10.82",
+  "context": "rmer & 60.63 \u00b1 0.8 & 71.45 \u00b1 0.6 & \\cellcolor{l3} $\\uparrow 10.82$ & 78.14 \u00b1 0.3 & 77.70 \u00b1 0.8 & \\cellcolor{red20} $\\dow"
+ },
+ {
+  "paper": "2503.14411",
+  "kind": "tabular",
+  "value": "0.02",
+  "context": ".82$ & 74.10 \u00b1 0.2 & 74.12 \u00b1 0.2 & \\cellcolor{l1} $\\uparrow 0.02$ & 75.19 \u00b1 0.2 & \\textbf{82.25 \u00b1 2.0} & \\cellcolor{l3} "
+ },
+ {
+  "paper": "2503.14411",
+  "kind": "tabular",
+  "value": "2.0",
+  "context": "1 \u00b1 0.0 & 86.97 \u00b1 2.8 & 81.52 \u00b1 2.0 & 64.56 \u00b1 1.8 & 82.25 \u00b1 2.0 & 91.59 \u00b1 .03 & 62.22 \u00b1 2.1 \\\\ \\rowcolor{my"
+ },
+ {
+  "paper": "2503.14411",
+  "kind": "tabular",
+  "value": "30.38",
+  "context": "2 & 53.41 \u00b1 2.5 & 37.90 \u00b1 2.4 & 57.75 \u00b1 7.1 & 55.21 \u00b1 1.0 & 30.38 \u00b1 0.3 \\\\ DyRep & 58.85 \u00b1 7.9 & 45.61 "
+ },
+ {
+  "paper": "2505.00837",
+  "kind": "tabular",
+  "value": "0.128",
+  "context": " mean\\_NMAE & 0.055 & 0.045 & 0.058 & 0.246 & 0.104 & 0.128 & 0.209 & 0.356 & 0.312 \\\\ stdev\\_NMAE &"
+ },
+ {
+  "paper": "2505.00837",
+  "kind": "tabular",
+  "value": "11.841",
+  "context": " stdev\\_MAE & 1.215 & 0.815 & 0.732 & 0.422 & 0.563 & 11.841 & 1.728 & 15.546 & 15.531 \\\\ mean\\_NMAE & 0"
+ },
+ {
+  "paper": "2505.00837",
+  "kind": "tabular",
+  "value": "15.531",
+  "context": " 0.815 & 0.732 & 0.422 & 0.563 & 11.841 & 1.728 & 15.546 & 15.531 \\\\ mean\\_NMAE & 0.055 & 0.045 & 0.058 & 0.24"
+ },
+ {
+  "paper": "2505.00837",
+  "kind": "tabular",
+  "value": "0.422",
+  "context": "5 & 13.738 \\\\ stdev\\_MAE & 1.215 & 0.815 & 0.732 & 0.422 & 0.563 & 11.841 & 1.728 & 15.546 & 15.531 \\\\ "
+ },
+ {
+  "paper": "2505.13346",
+  "kind": "tabular",
+  "value": "32.54",
+  "context": "[HTML]{EFEFEF}Qwen2.5-7B-Instruct & {\\color[HTML]{9B9B9B} 32.54} & {\\color[HTML]{9B9B9B} 48.59} & {\\color[HTML]{9B"
+ },
+ {
+  "paper": "2505.13346",
+  "kind": "tabular",
+  "value": "46.75",
+  "context": "B} 43.93} & {\\underline{52.53}} & {\\color[HTML]{9B9B9B} 46.75} & {\\color[HTML]{9B9B9B} 60.71} & {\\color[HTML]{9B"
+ },
+ {
+  "paper": "2505.13346",
+  "kind": "tabular",
+  "value": "57.14",
+  "context": " & {\\color[HTML]{9B9B9B} 44.81} & {\\color[HTML]{9B9B9B} 57.14} & {\\color[HTML]{9B9B9B} 35.71} & {\\color[HTML]{9B"
+ },
+ {
+  "paper": "2505.13346",
+  "kind": "tabular",
+  "value": "92.86",
+  "context": " & {\\color[HTML]{9B9B9B} 82.65} & {\\color[HTML]{9B9B9B} 92.86} & \\textbf{83.71} & {{\\color[HTML]{9B9B9B} 77.59}}"
+ },
+ {
+  "paper": "2505.03797",
+  "kind": "tabular",
+  "value": "0.46",
+  "context": "48.64) & 0.2922 (0.0068) & 89.76\\% (0.46) & 425.65s (9.43) & 0.2899 (0.0"
+ },
+ {
+  "paper": "2505.03797",
+  "kind": "tabular",
+  "value": "88.96",
+  "context": "\\ \\midrule Random Walk & 0.3157 (0.0107) & 88.96\\% (0.48) & 890.66s (48.64) & 0"
+ },
+ {
+  "paper": "2505.03797",
+  "kind": "tabular",
+  "value": "0.001",
+  "context": "rge Batch Size} \\\\ \\cline{1-4} California Housing & 0.001 & 0.001 & 0.001 \\\\ \\hline Wine & 0.01 & 0.01 & 0.01 \\\\ \\hline "
+ },
+ {
+  "paper": "2505.03797",
+  "kind": "tabular",
+  "value": "0.001",
+  "context": "ng & 0.001 & 0.001 & 0.001 \\\\ \\hline Wine & 0.001 & 0.001 & 0.001 \\\\ \\hline MNIST & 0.001 & 0.001 & 0.0002 \\\\ \\hline Fas"
+ },
+ {
+  "paper": "2509.03403",
+  "kind": "tabular",
+  "value": "83.1",
+  "context": "ch & AIME24 & AMC23 & Average \\\\ \\hline PROF-GRPO & \\textbf{83.1} & \\textbf{39.0} & \\textbf{47.8} & 17.5 & \\textbf{70.9}"
+ },
+ {
+  "paper": "2509.03403",
+  "kind": "pct_pm",
+  "value": "37.2",
+  "context": "curacy of $39.6\\%$, surpassing the standard GRPO baseline ($37.2\\%$) and the Blend-PRM-GRPO method ($35.3\\%$). A similar"
+ },
+ {
+  "paper": "2509.03403",
+  "kind": "tabular",
+  "value": "49.9",
+  "context": "4 \\\\ & GRPO & 81.6 & 37.2 & 45.5 & 20.6 & 64.4 & 49.9 \\\\ & Blend & 81.7 & 36.7 & 45.0 & 15.2 & 58.0"
+ },
+ {
+  "paper": "2509.03403",
+  "kind": "tabular",
+  "value": "17.2",
+  "context": "9 & 22.7\\\\ Blend-PRM-GRPO & 37.2 & 13.1 & 9.9 & 1.0 & 17.2 & 15.7\\\\ \\hline \\end{tabular} \\caption{The test accurac"
+ },
+ {
+  "paper": "2503.01876",
+  "kind": "tabular",
+  "value": "8.4",
+  "context": "ne Denoising Uncertainty (Ours) & 7.2 & 6.8 & 6.5 & 8.4\\\\ \\hline Avg. Full-trajectory length & 8"
+ },
+ {
+  "paper": "2503.01876",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "|c c c c} Radius of sampling & 0.01 & 0.03 & 0.05 & 0.1\\\\ \\hline $\\#$ of human steps ($\\downarr"
+ },
+ {
+  "paper": "2503.01876",
+  "kind": "tabular",
+  "value": "6.8",
+  "context": " \\hline Denoising Uncertainty (Ours) & 7.2 & 6.8 & 6.5 & 8.4\\\\ \\hline Avg. Full-trajector"
+ },
+ {
+  "paper": "2503.01876",
+  "kind": "tabular",
+  "value": "46.3",
+  "context": "f human steps ($\\downarrow$) & 60.3 & 31.6 & \\textbf{20} & 46.3\\\\ \\hline Success rate ($\\uparrow$) & 0."
+ },
+ {
+  "paper": "2509.06863",
+  "kind": "tabular",
+  "value": "0.005",
+  "context": "u_hendrycks2016}) \\\\ Target network smoothing coefficient & 0.005 \\\\ Discount factor $\\gamma$ & 0.99 (default), 0.995 (\\"
+ },
+ {
+  "paper": "2509.06863",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "texttt{cube-single} & $(0.1, 8)$\\\\ \\texttt{cube-double} & $(0.1, 8)$\\\\ \\texttt{scene-play} & $(0.1, 8)$\\\\ \\texttt{puzzle"
+ },
+ {
+  "paper": "2509.06863",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "texttt{cube-single} & $(0.1, 8)$\\\\ \\texttt{cube-double} & $(0.1, 8)$\\\\ \\texttt{scene-play} & $(0.1, 8)$\\\\ \\texttt{puzzle"
+ },
+ {
+  "paper": "2509.06863",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "t{antsoccer-arena} & $(0.1, 8)$\\\\ \\texttt{cube-single} & $(0.1, 8)$\\\\ \\texttt{cube-double} & $(0.1, 8)$\\\\ \\texttt{scene"
+ },
+ {
+  "paper": "2501.12670",
+  "kind": "tabular",
+  "value": "1.05",
+  "context": "mlp lopt & 0.73 & \\bf 1.00 \\\\ adafac mlp lopt & 0.89 & \\bf 1.05 \\\\ velo-s & 0.90 & \\bf 1.01 \\\\ \\band celo & 1.07 & \\b"
+ },
+ {
+  "paper": "2501.12670",
+  "kind": "tabular",
+  "value": "0.00",
+  "context": "0.96 & 0.12 \\\\ pretrained-velo & 4000 TPU months & 1.41 & 0.00\\\\ \\hline \\band celo & 24 GPU hours & 1.20 & 0.01 \\end{t"
+ },
+ {
+  "paper": "2501.12670",
+  "kind": "tabular",
+  "value": "1.41",
+  "context": "hours & 0.96 & 0.12 \\\\ pretrained-velo & 4000 TPU months & 1.41 & 0.00\\\\ \\hline \\band celo & 24 GPU hours & 1.20 & 0.0"
+ },
+ {
+  "paper": "2501.12670",
+  "kind": "tabular",
+  "value": "1.92",
+  "context": "e \\band celo (ours) & \\bf 1.14 & \\bf 0.01 & \\bf 1.20 & \\bf 1.92 & \\bf 0.14 & \\bf 1.86\\\\ \\end{tabular} } \\caption{\\text"
+ },
+ {
+  "paper": "2503.07649",
+  "kind": "pct_pm",
+  "value": "6.51",
+  "context": ", TS-RAG\\textsubscript{Chronos-bolt} further reduces MSE by 6.51\\%, highlighting its ability to refine forecasts even in"
+ },
+ {
+  "paper": "2503.07649",
+  "kind": "pct_pm",
+  "value": "6.51",
+  "context": "ecasting performance, outperforming existing TSFMs by up to 6.51\\% across diverse domains while simultaneously enhancing"
+ },
+ {
+  "paper": "2503.07649",
+  "kind": "pct_pm",
+  "value": "3.54",
+  "context": "extsubscript{Chronos-bolt} achieves an average reduction of 3.54\\% in MSE and 1.43\\% in MAE, confirming that the incorpo"
+ },
+ {
+  "paper": "2503.07649",
+  "kind": "pct_pm",
+  "value": "6.51",
+  "context": "-shot forecasting performance, outperforming TSFMs by up to 6.51\\% across diverse domains and showcasing desired interpr"
+ },
+ {
+  "paper": "2503.01804",
+  "kind": "pct_pm",
+  "value": "100.0",
+  "context": " 100.0\\% \\\\ CTRL & Llama 70B & \\textbf{100.0\\%} & 100.0\\% & 100.0\\% \\\\ \\bottomrule \\end{tabular} \\end{small} \\end{center"
+ },
+ {
+  "paper": "2503.01804",
+  "kind": "pct_pm",
+  "value": "0.0",
+  "context": "{Base}& Llama 1B & 3.3\\% & 0.0\\% & 10.0\\% & 0.0\\% & 0.0\\% & 0.0\\% & 0.0\\% \\\\ & Llama 8B & 3.3\\% & 0.0\\% & 13.3\\% & 25.0"
+ },
+ {
+  "paper": "2503.01804",
+  "kind": "tabular",
+  "value": "0.0",
+  "context": "$\\pm$0.0\\% \\\\ \\multirow{1}{*}{CTRL}& Llama 70B & 100.0$\\pm$0.0\\% & 100.0$\\pm$0.0\\% & 100.0$\\pm$0.0\\% & 100.0$\\pm$0.0\\% "
+ },
+ {
+  "paper": "2503.01804",
+  "kind": "pct_pm",
+  "value": "60.0",
+  "context": " 40.0\\% & 10.0\\% & 2.0\\% \\\\ & Llama 70B & 30.0\\% & 0.0\\% & 60.0\\% & 37.5\\% & 90.0\\% & 30.0\\% & 23.2\\% \\\\ \\midrule \\mult"
+ },
+ {
+  "paper": "2509.10663",
+  "kind": "pct_pm",
+  "value": "99.6",
+  "context": "scriptsize ($0.4\\pm 0.1$) }& \\makecell{96.4\\\\ \\scriptsize ($99.6\\pm 0.1$) }& \\makecell{0.3\\\\ \\scriptsize ($0.0\\pm 0.0$) "
+ },
+ {
+  "paper": "2509.10663",
+  "kind": "tabular",
+  "value": "1.2",
+  "context": " & Mistral-7B-v0.1 & 11.1 & 99.0 \\\\ & Phi-1.5 & 1.2 & 99.0 \\\\ & Llama3-8B & 0.9 & 87.0 \\\\ \\midru"
+ },
+ {
+  "paper": "2509.10663",
+  "kind": "tabular",
+  "value": "0.0",
+  "context": "\\makecell{100.0\\\\ \\scriptsize ($100.0\\pm 0.0$) }& \\makecell{0.0\\\\ \\scriptsize ($0.0\\pm 0.0$) }& \\makecell{0.0\\\\ \\scripts"
+ },
+ {
+  "paper": "2509.10663",
+  "kind": "tabular",
+  "value": "92.5",
+  "context": " & GPT-2 & 0.3 & 98.0 \\\\ & Pythia-1.4B & 0.1 & 92.5 \\\\ & Mistral-7B-v0.1 & 0.5 & 91.0 \\\\ & "
+ },
+ {
+  "paper": "2503.15055",
+  "kind": "tabular",
+  "value": "0.59",
+  "context": "{0.03} & 0.27 \\\\ Llama-Primus-Merged & 0.76 & 0.23 & 0.59 & 0.70 & 0.76 & 0.04 & 0.19 \\\\ GPT-4o & \\textbf{"
+ },
+ {
+  "paper": "2503.15055",
+  "kind": "tabular",
+  "value": "0.68",
+  "context": "0} \\\\ Granite-3.2-2b-Instruct & 0.74 & 0.39 & 0.58 & 0.68 & 0.73 & 0.06 & 0.20 \\\\ Llama-Primus-Instruct & "
+ },
+ {
+  "paper": "2503.15055",
+  "kind": "tabular",
+  "value": "0.44",
+  "context": " \\midrule Gemma-2b-it & 0.51 & 0.43 & 0.30 & 0.30 & 0.44 & 0.24 & 0.25 \\\\ Gemma-2b-Real & 0.65 & 0.31 & 0"
+ },
+ {
+  "paper": "2503.15055",
+  "kind": "tabular",
+  "value": "0.77",
+  "context": "& 0.73 & \\underline{0.03} & 0.32 \\\\ Gemma-2b-Synth & 0.77 & 0.16 & \\underline{0.78} & 0.76 & 0.85 & 0.13 & \\under"
+ },
+ {
+  "paper": "2507.05639",
+  "kind": "tabular",
+  "value": "45.0",
+  "context": "ar & 48.1 & 31.0 & 20.0 \\\\ \\hline 4 & Calm & High & Vague & 45.0 & 29.9 & 20.0 \\\\ \\hline 5 & Angry & Low & Clear & 46.6 "
+ },
+ {
+  "paper": "2507.05639",
+  "kind": "tabular",
+  "value": "40.0",
+  "context": "ue & 45.0 & 26.7 & 20.0 \\\\ \\hline 8 & Angry & Low & Vague & 40.0 & 20.0 & 10.0 \\\\ \\hline \\end{tabular} \\caption{Ablation"
+ },
+ {
+  "paper": "2507.05639",
+  "kind": "tabular",
+  "value": "30.0",
+  "context": "9 & 25.0 \\\\ \\hline 6 & Angry & High & Vague & 45.0 & 29.9 & 30.0 \\\\ \\hline 7 & Calm & Low & Vague & 45.0 & 26.7 & 20.0 \\"
+ },
+ {
+  "paper": "2507.05639",
+  "kind": "tabular",
+  "value": "45.0",
+  "context": "gue & 45.0 & 29.9 & 30.0 \\\\ \\hline 7 & Calm & Low & Vague & 45.0 & 26.7 & 20.0 \\\\ \\hline 8 & Angry & Low & Vague & 40.0 "
+ },
+ {
+  "paper": "2503.16561",
+  "kind": "tabular",
+  "value": "2.84",
+  "context": "G & 3 & 1 & 21.20 & 5.09 & 16.41 & 86.40 & 13.27 & 40.36 & 2.84 \\\\ \\multicolumn{9}{c}{\\textbf{GPT Refined Ground T"
+ },
+ {
+  "paper": "2503.16561",
+  "kind": "tabular",
+  "value": "52.27",
+  "context": "ama 3 ZS & 3 & 1 & 14.15 & 3.23 & 10.38 & 85.61 & 14.52 & 52.27 & 2.27 \\\\ Llama 3 FT & 3 & 1 & 26.75 & 5.61 & - "
+ },
+ {
+  "paper": "2503.16561",
+  "kind": "tabular",
+  "value": "9.99",
+  "context": "8}{+4.32}) \\\\ Cosine S & 40.53 & 50.52(\\scalebox{0.8}{+9.99}) \\\\ BLEU & 1.29 & 2.72(\\scalebox{0.8}{+1.43}) \\\\ "
+ },
+ {
+  "paper": "2503.16561",
+  "kind": "tabular",
+  "value": "2.90",
+  "context": "\\textbf{4.04} & 3.44 \\\\ Llama 3 FT & 1 & 3.37 & 3.69 & 2.90 & 3.65 \\\\ GPT 3.5 & 1 & 3.89 & 4.47 & 3.38 & "
+ },
+ {
+  "paper": "2509.17292",
+  "kind": "pct_pm",
+  "value": "21.5",
+  "context": " Instances (\\%)} \\\\ \\hline Emotional reasoning & 2,999 (21.5\\%) \\\\ Overgeneralization & 2,271 (16.3\\%) \\\\ Fortu"
+ },
+ {
+  "paper": "2509.17292",
+  "kind": "pct_pm",
+  "value": "16.3",
+  "context": "ng & 2,999 (21.5\\%) \\\\ Overgeneralization & 2,271 (16.3\\%) \\\\ Fortune-telling & 1,628 (11.7\\%) \\\\ Mind "
+ },
+ {
+  "paper": "2509.17292",
+  "kind": "pct_pm",
+  "value": "8.7",
+  "context": " Thinking & 1,015 (9.4\\%) \\\\ Magnification & 938 (8.7\\%) \\\\ Mental Filter & 696 (6.5\\%) \\\\ Personali"
+ },
+ {
+  "paper": "2509.17292",
+  "kind": "tabular",
+  "value": "0.164",
+  "context": ".120 \\\\ Emotional Reasoning & 0.297 $\\pm$ 0.052 & 0.164 $\\pm$ 0.122 \\\\ Negative Filtering (Mental filter) & 0."
+ },
+ {
+  "paper": "2509.00338",
+  "kind": "tabular",
+  "value": "0.2",
+  "context": "one \\\\ PPO epochs & 1 & 10\\\\ PPO clip ratio & 0.1 & 0.2 \\\\ PPO clip value & 1.0 & 1.0 \\\\ Encoder crop di"
+ },
+ {
+  "paper": "2509.00338",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "1 & 1, 3, 10, 30\\\\ & Controller reward scaling & 0.1 & 0.1, 0.3, 1\\\\ & Score option reward scaling & 1 & -\\\\ "
+ },
+ {
+  "paper": "2509.00338",
+  "kind": "tabular",
+  "value": "0.3",
+  "context": ", 3, 10, 30\\\\ & Controller reward scaling & 0.1 & 0.1, 0.3, 1 \\\\ & Number of options & 2 & -\\\\ & Option"
+ },
+ {
+  "paper": "2509.00338",
+  "kind": "tabular",
+  "value": "0.1",
+  "context": "der embedding dimension & 128 & N/A \\\\ Reward Scaling & 0.1 & 10\\\\ Exploration loss coefficient & 0.003 & 0.001 "
+ },
+ {
+  "paper": "2501.08284",
+  "kind": "tabular",
+  "value": "63.94",
+  "context": "textbf{71.95} & \\textbf{87.63} & & 57.74 & 70.82 & 38.46 & 63.94 \\\\ \\texttt{yor} & 57.36 & \\textbf{84.24} & 6.9"
+ },
+ {
+  "paper": "2501.08284",
+  "kind": "tabular",
+  "value": "46.92",
+  "context": "5 & 57.35 & 40.91 & 59.09 & 48.95 & 74.93 & 40.04 & 53.72 & 46.92 & 56.54 & 50.67 & 52.97 \\\\\\midrule \\textbf{InkubaLM-"
+ },
+ {
+  "paper": "2501.08284",
+  "kind": "tabular",
+  "value": "40.33",
+  "context": "0 & 57.00 & 42.29 & 62.64 & 39.16 & 45.76 & 43.52 & 49.73 & 40.33 & 46.23 \\\\ & 20 & 50.13 & 40.49 & 54.24 & 55.40 & 6"
+ }
+]

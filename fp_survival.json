@@ -1,0 +1,329 @@
+{
+ "n": 37,
+ "checked": 37,
+ "survival_rate": 0.9459,
+ "by_cause": {
+  "hyperparameter": [
+   9,
+   11
+  ],
+  "model-name version digit": [
+   6,
+   6
+  ],
+  "latex rendering parameter": [
+   1,
+   1
+  ],
+  "experimental setting, not an outcome": [
+   12,
+   12
+  ],
+  "dataset or model specification": [
+   6,
+   6
+  ],
+  "normalization anchor (1.0x)": [
+   1,
+   1
+  ]
+ },
+ "items": [
+  {
+   "tranche": 1,
+   "index": 22,
+   "cause": "hyperparameter",
+   "paper": "2503.01919",
+   "value": "2.5",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 24,
+   "cause": "hyperparameter",
+   "paper": "2503.01919",
+   "value": "0.05",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 98,
+   "cause": "hyperparameter",
+   "paper": "2505.03797",
+   "value": "0.001",
+   "survives": false
+  },
+  {
+   "tranche": 1,
+   "index": 99,
+   "cause": "hyperparameter",
+   "paper": "2505.03797",
+   "value": "0.001",
+   "survives": false
+  },
+  {
+   "tranche": 1,
+   "index": 108,
+   "cause": "hyperparameter",
+   "paper": "2509.06863",
+   "value": "0.005",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 144,
+   "cause": "hyperparameter",
+   "paper": "2509.00338",
+   "value": "0.2",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 145,
+   "cause": "hyperparameter",
+   "paper": "2509.00338",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 146,
+   "cause": "hyperparameter",
+   "paper": "2509.00338",
+   "value": "0.3",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 147,
+   "cause": "hyperparameter",
+   "paper": "2509.00338",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 39,
+   "cause": "model-name version digit",
+   "paper": "2501.12689",
+   "value": "1.5",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 43,
+   "cause": "model-name version digit",
+   "paper": "2503.02878",
+   "value": "3.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 44,
+   "cause": "model-name version digit",
+   "paper": "2503.02878",
+   "value": "3.5",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 73,
+   "cause": "model-name version digit",
+   "paper": "2505.05406",
+   "value": "3.5",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 15,
+   "cause": "latex rendering parameter",
+   "paper": "2505.11304",
+   "value": "0.5",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 18,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2509.08731",
+   "value": "1.20",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 19,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2509.08731",
+   "value": "1.10",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 58,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2503.10232",
+   "value": "1.7",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 60,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2503.10232",
+   "value": "3.8",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 105,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2503.01876",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 109,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2509.06863",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 110,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2509.06863",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 111,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2509.06863",
+   "value": "0.1",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 7,
+   "cause": "dataset or model specification",
+   "paper": "2505.04278",
+   "value": "181.83",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 46,
+   "cause": "dataset or model specification",
+   "paper": "2507.05195",
+   "value": "300.0",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 47,
+   "cause": "dataset or model specification",
+   "paper": "2507.05195",
+   "value": "4000.0",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 48,
+   "cause": "dataset or model specification",
+   "paper": "2507.05195",
+   "value": "3600.0",
+   "survives": true
+  },
+  {
+   "tranche": 1,
+   "index": 14,
+   "cause": "normalization anchor (1.0x)",
+   "paper": "2505.11304",
+   "value": "1.0",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 3,
+   "cause": "dataset or model specification",
+   "paper": "2507.18504",
+   "value": "34.7",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 75,
+   "cause": "dataset or model specification",
+   "paper": "2503.03025",
+   "value": "13.5",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 17,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2502.11926",
+   "value": "0.86",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 19,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2502.11926",
+   "value": "25.0",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 62,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2503.05424",
+   "value": "0.05",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 88,
+   "cause": "experimental setting, not an outcome",
+   "paper": "2503.07129",
+   "value": "0.35",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 52,
+   "cause": "model-name version digit",
+   "paper": "2503.15879",
+   "value": "3.2",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 89,
+   "cause": "model-name version digit",
+   "paper": "2503.07129",
+   "value": "3.5",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 54,
+   "cause": "hyperparameter",
+   "paper": "2503.02125",
+   "value": "0.5",
+   "survives": true
+  },
+  {
+   "tranche": 2,
+   "index": 55,
+   "cause": "hyperparameter",
+   "paper": "2503.02125",
+   "value": "0.001",
+   "survives": true
+  }
+ ]
+}

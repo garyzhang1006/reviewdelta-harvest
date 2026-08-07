@@ -1,0 +1,31 @@
+{
+ "protocol": "second, blind annotation pass: an LLM annotator (Claude Opus) was given ONLY the stripped evidence rows (index, classifier category, dropped value, v1 context window, vN numerically-equal variants, vN same-cell values, row-label survival) with no access to the author labels, and asked for each of the 119 rows whether the classifier's category is the best reading of the evidence.",
+ "n": 119,
+ "agree": 96,
+ "disagree": [
+  {"index": 5, "classifier": "formatting", "better": "row-change", "why": "Only variant is the truncated token '32.', which matches inside any 32.x number; siblings 6/8 in the same table show no reformatting, and row TEnc/all survives."},
+  {"index": 7, "classifier": "row-change", "better": "gone", "why": "Value sits in running prose ('by 18.4% and 13.8%'), not a table row; the surviving label TEnc/all is only mentioned in the sentence."},
+  {"index": 18, "classifier": "formatting", "better": "gone", "why": "Variants '04' and '4' are stray digit hits; the 4.0 itself is a substring of '24.00$\\pm$2.00', and no row label or cell survives."},
+  {"index": 25, "classifier": "value-change", "better": "gone", "why": "v1 context is prose about win rate, so no table cell exists at any position; the 47.25 cell hit is coincidental."},
+  {"index": 28, "classifier": "value-change", "better": "row-change", "why": "Reported cell 56.05 is exactly the v1 value one column to the left in the same row: column shift, not a changed value."},
+  {"index": 29, "classifier": "value-change", "better": "row-change", "why": "Cell 50.65 equals the same v1 row's preceding column, same one-column shift as records 28/30/31."},
+  {"index": 30, "classifier": "value-change", "better": "row-change", "why": "Cell 61.21 equals the same v1 row's preceding column; grid shift artifact."},
+  {"index": 31, "classifier": "value-change", "better": "row-change", "why": "Cell 56.52 equals the same v1 row's preceding column; four consecutive rows showing this cannot all be genuine updates."},
+  {"index": 40, "classifier": "value-change", "better": "gone", "why": "Row alternates cost/gap%; cell 10.08 is gap-scale where a 2965.51 cost stood, and the row label does not survive."},
+  {"index": 41, "classifier": "value-change", "better": "gone", "why": "Two conflicting cells (112.21, 110.64), both cost-scale, matched against a 27.16% gap value; row label gone."},
+  {"index": 43, "classifier": "value-change", "better": "gone", "why": "Cell 11.28 is gap-percent scale against a 2818.09 cost value; same one-column offset as 40/41, row label gone."},
+  {"index": 55, "classifier": "formatting", "better": "gone", "why": "'0.150' is 3dp in a 2dp table; siblings 0.05/0.20/0.29 from the same table have no variants, so the table was not reformatted."},
+  {"index": 67, "classifier": "formatting", "better": "gone", "why": "Variants '0' and '000' are stray digit hits; the value is a prose temperature setting, no clean 0.00 variant exists."},
+  {"index": 87, "classifier": "value-change", "better": "row-change", "why": "Three conflicting cells (75.2, 0.720, 0.713) including 0-1 scale numbers against a 100.0 percentage; position lookup unstable for this row (see 84)."},
+  {"index": 90, "classifier": "value-change", "better": "gone", "why": "Row label '+All four' does not survive and 2.17 is 2dp against a 3dp table, so the cell belongs to a different row/table."},
+  {"index": 94, "classifier": "formatting", "better": "row-change", "why": "Sole variant is a bare '0'; no 0.00/0.000 token exists, while the Ar row label survives."},
+  {"index": 96, "classifier": "value-change", "better": "gone", "why": "Row GemNet-OC does not survive, and 3.08 (2dp) is out of scale for a 25.7 meV/A force MAE column."},
+  {"index": 97, "classifier": "value-change", "better": "row-change", "why": "78.3 to 4.85 is a scale and precision jump for a fixed literature baseline; paired with 96 it points to a different table's cell. SchNet row survives."},
+  {"index": 105, "classifier": "value-change", "better": "gone", "why": "Row '3 (Family)' does not survive; cell 5.318 is 3dp against a 2dp statistics table, so the position match is coincidental."},
+  {"index": 107, "classifier": "value-change", "better": "gone", "why": "Same table as 105: 16.70 matched to 0.539, a different statistic scale, with the row label gone."},
+  {"index": 111, "classifier": "formatting", "better": "gone", "why": "Bare '100' is a ubiquitous token; the Total row label does not survive, so the statistics table itself is gone."},
+  {"index": 116, "classifier": "value-change", "better": "row-change", "why": "Cell 6.7 is exactly the third column of the same v1 row (62.8 & 60.2 & 6.7): column offset, not a value update."},
+  {"index": 118, "classifier": "formatting", "better": "row-change", "why": "Variants '3' and '3.' are stray substrings of any 3.x number; the same row's other dropped cell (117) was called row-change."}
+ ],
+ "sample_file": "drop_labels_sample.json (same 119 rows, 1-based indices matching drop_labels.txt)"
+}

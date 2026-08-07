@@ -1,0 +1,18 @@
+{
+ "annotator": "independent LLM session, context-only (blind_sample2.json: index, kind, value, 120-char context; no paper ids, no author labels)",
+ "n": 100,
+ "not_result": [
+  {"index": 3, "cause": "spec"},
+  {"index": 17, "cause": "setting"},
+  {"index": 19, "cause": "setting"},
+  {"index": 52, "cause": "model-name digit"},
+  {"index": 53, "cause": "spec"},
+  {"index": 54, "cause": "hyperparameter"},
+  {"index": 55, "cause": "hyperparameter"},
+  {"index": 62, "cause": "setting"},
+  {"index": 75, "cause": "setting"},
+  {"index": 89, "cause": "model-name digit"}
+ ],
+ "ambiguous": [49, 50, 51, 88],
+ "note": "second tranche; same blind protocol as precision_blind.json; disagreements with author labels: index 53 (blind flags dataset length distribution, author keeps) and index 88 (author flags sweep-grid parameter, blind keeps)"
+}

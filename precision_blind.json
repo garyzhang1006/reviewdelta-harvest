@@ -1,0 +1,134 @@
+{
+ "not_result": [
+  {
+   "index": 7,
+   "cause": "spec"
+  },
+  {
+   "index": 14,
+   "cause": "anchor"
+  },
+  {
+   "index": 15,
+   "cause": "rendering"
+  },
+  {
+   "index": 18,
+   "cause": "setting"
+  },
+  {
+   "index": 19,
+   "cause": "setting"
+  },
+  {
+   "index": 22,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 24,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 30,
+   "cause": "spec"
+  },
+  {
+   "index": 31,
+   "cause": "spec"
+  },
+  {
+   "index": 39,
+   "cause": "model-name digit"
+  },
+  {
+   "index": 43,
+   "cause": "model-name digit"
+  },
+  {
+   "index": 44,
+   "cause": "model-name digit"
+  },
+  {
+   "index": 46,
+   "cause": "spec"
+  },
+  {
+   "index": 47,
+   "cause": "spec"
+  },
+  {
+   "index": 48,
+   "cause": "spec"
+  },
+  {
+   "index": 73,
+   "cause": "model-name digit"
+  },
+  {
+   "index": 98,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 99,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 105,
+   "cause": "setting"
+  },
+  {
+   "index": 108,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 109,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 110,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 111,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 140,
+   "cause": "spec"
+  },
+  {
+   "index": 141,
+   "cause": "spec"
+  },
+  {
+   "index": 142,
+   "cause": "spec"
+  },
+  {
+   "index": 144,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 145,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 146,
+   "cause": "hyperparameter"
+  },
+  {
+   "index": 147,
+   "cause": "hyperparameter"
+  }
+ ],
+ "ambiguous": [
+  7,
+  30,
+  31,
+  58,
+  60
+ ],
+ "annotator": "LLM (Claude Opus 5), blind to author labels and paper identities, judging from the released 120-char contexts only",
+ "kappa_vs_author": 0.85,
+ "raw_agreement": "143/150"
+}

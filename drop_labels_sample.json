@@ -1,0 +1,1150 @@
+[
+ {
+  "paper": "2507.08597",
+  "value": "0.22",
+  "classifier": "gone",
+  "v1_context": "e \\multirow{3}{*}{Proposed} & RF+\\texttt{ADAPT} & 96.1\u00b10.42 & 0.22\u00b10.01 & 7.11\u00b10.75 \\\\ & XGBoost+\\texttt{ADAPT} & \\textbf{\\u",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.08597",
+  "value": "0.87",
+  "classifier": "row-change",
+  "v1_context": "\\midrule \\multirow{3}{*}{Offline ML} & RF & \\underline{98.0 \u00b1 0.87} & 0.07 \u00b1 0.00 & 3.31 \u00b1 1.57 \\\\ & XGBoost & 97.9 \u00b1 0.95 &",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.08597",
+  "value": "0.25",
+  "classifier": "row-change",
+  "v1_context": "1.1\u00b15.84 & 5.28\u00b13.68 & 25.0\u00b110.8 \\\\ & DE++ & 42.3\u00b130.1 & 0.33\u00b10.25 & 65.6\u00b124.6 \\\\ & Insomnia & 68.1\u00b10.43 & 2.05\u00b10.10 & 31.8\u00b1",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.08597",
+  "value": "0.96",
+  "classifier": "row-change",
+  "v1_context": "\\\\ \\midrule \\multirow{3}{*}{BODMAS} & XGBoost & 81.2\u00b10.96 & 86.2\u00b10.99 & 81.9\u00b10.96 \\\\ & XGBoost + AL & 83.2\u00b10.00 & 8",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.17930",
+  "value": "32.0",
+  "classifier": "formatting",
+  "v1_context": ".3 & 41.1 & 37.5 & 33.9 & 41.3 & 30.3 & 35.6\\\\ TEnc/all & 19.6 & 32.0 & 22.4 & 37.8 & 24.0 & 19.3 & 21.9 & 22.0 & 24.9\\\\ T5small &",
+  "vn_variants": [
+   "32."
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.17930",
+  "value": "32.3",
+  "classifier": "row-change",
+  "v1_context": "0.7 & 48.5 & 39.5 & 35.0 & 49.6 & 45.4 & 44.1 & 46.7\\\\ TET-Rnd & 32.3 & 50.8 & 56.9 & 61.8 & 40.7 & 78.3 & 49.1 & 30.5 & 49.8 & 44.6 & ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.17930",
+  "value": "13.8",
+  "classifier": "row-change",
+  "v1_context": "toeba, TET similarly outperforms TEnc/lang and TEnc/all by 18.4\\% and 13.8\\% in terms of average WER, respectively. Consistent with the fin",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.17930",
+  "value": "52.8",
+  "classifier": "row-change",
+  "v1_context": ".2\\\\ TEnc/all & 42.0 & 57.8 & 58.2 & 69.5 & 48.3 & 63.0 & 48.1 & 52.8 & 60.3 & 52.2 & 44.1 & 54.2\\\\ T5small & -- & -- & 55.2 & 53.",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.19521",
+  "value": "0.363",
+  "classifier": "gone",
+  "v1_context": " \\\\ \\midrule \\textbf{Reference Schema} & \\textbf{0.606} & 0.363 & 0.031 \\\\ \\textbf{Base-Generation} & 0.013 & 0.056 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.19521",
+  "value": "0.931",
+  "classifier": "gone",
+  "v1_context": "031 \\\\ \\textbf{Base-Generation} & 0.013 & 0.056 & \\textbf{0.931} \\\\ \\textbf{Goal-Oriented Generation} & 0.381 & \\tex",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.19521",
+  "value": "0.355",
+  "classifier": "gone",
+  "v1_context": " \\\\ \\midrule \\textbf{Reference Schema} & \\textbf{0.541} & 0.355 & 0.104 \\\\ \\textbf{Base-Generation} & 0.076 & 0.134 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.19521",
+  "value": "0.038",
+  "classifier": "gone",
+  "v1_context": " \\textbf{Goal-Oriented Generation} & 0.381 & \\textbf{0.581} & 0.038 \\\\ \\bottomrule \\end{tabular} \\caption{Deepsee",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.09768",
+  "value": "22.68",
+  "classifier": "gone",
+  "v1_context": "94(6) & 20.38(6) \\\\ \\midrule PRESS-12 @ 4 (M) & 22.68(5) & 22.93(5) & 19.75(5) & 19.71(5) \\\\ PRESS-12 @ 8 (M) ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.09768",
+  "value": "14.97",
+  "classifier": "gone",
+  "v1_context": " & \\bfseries 23.30 & \\bfseries 98.80 & \\underline{3.72} & 14.97 & 248.62 \\\\ ZipEnhancer~\\autocite{wangZipEnhancerDualPat",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.09768",
+  "value": "21.9",
+  "classifier": "gone",
+  "v1_context": "mmetric2024} (B)} & $23.8$ & $23.9$ & $21.6$ & $21.9$ & $14.2$M & $39.8$ \\\\ {SepRefome",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.09768",
+  "value": "0.5",
+  "classifier": "gone",
+  "v1_context": "ning. \\begin{figure}[htpb] \\centering \\includegraphics[width=0.5\\linewidth]{figures/kstest_curve.png} \\caption{Kolmogorov-Smirn",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.01752",
+  "value": "2.5",
+  "classifier": "formatting",
+  "v1_context": " Llama3.1-8B-Instruct & 77.26 & 54.37 & 37.60 & 79.62 & 55.45 & 22.50 & 79.90 \\\\ Llama3.1-8B-Instruct-BBoxER-BetAndRun (N=3, b=",
+  "vn_variants": [
+   "2.50"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.01752",
+  "value": "4.0",
+  "classifier": "formatting",
+  "v1_context": " 55.03$\\pm$0.10 & 36.52$\\pm$0.24 & 78.77$\\pm$0.34 & 55.42$\\pm$0.07 & 24.00$\\pm$2.00 & 79.96$\\pm$0.03 \\\\ Llama3.1-8B-Instruct-BBoxER-",
+  "vn_variants": [
+   "04",
+   "4",
+   "4.00"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.01752",
+  "value": "2.5",
+  "classifier": "formatting",
+  "v1_context": " Llama3.1-8B-Instruct & 77.26 & 54.37 & 37.60 & 79.62 & 55.45 & 22.50 & 79.90 \\\\ Llama3.1-8B-Instruct-BBoxER-BetAndRun (N=3, b=",
+  "vn_variants": [
+   "2.50"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.01752",
+  "value": "2.5",
+  "classifier": "formatting",
+  "v1_context": " Llama3.1-8B-Instruct & 77.26 & 54.37 & 37.60 & 79.62 & 55.45 & 22.50 & 79.90 \\\\ Llama3.1-8B-Instruct-BBoxER-BetAndRun (N=3, b=",
+  "vn_variants": [
+   "2.50"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.01876",
+  "value": "63.3",
+  "classifier": "gone",
+  "v1_context": " in Fig.~\\ref{fig:finetune-lift}, our policy performance improves by $63.3\\%$ on average if we fine-tune the policy with $170$ teleoperator-",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.01876",
+  "value": "33.3",
+  "classifier": "gone",
+  "v1_context": "et includes trajectories for opening each drawer, with approximately $33.3\\%$ of the data corresponding to each drawer. However, the dataset",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.01876",
+  "value": "45.3",
+  "classifier": "gone",
+  "v1_context": "roximately $100$ time steps of fine-tuning data, our method achieves $45.3\\%$ success rate improvement while all baselines achieve less than",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.12689",
+  "value": "27.87",
+  "classifier": "row-change",
+  "v1_context": "& \\underline{-0.8228} & \\textbf{-0.2701} \\\\ Win rates(\\%) & 27.87 & \\underline{29.11} & \\textbf{47.03} \\\\ \\bottomru",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.12689",
+  "value": "56.35",
+  "classifier": "value-change",
+  "v1_context": ", we observed a consistent positive trend, with the win rate reaching 56.35\\% when utilizing the full cache. So a larger cache size contribu",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "47.25"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.12689",
+  "value": "47.03",
+  "classifier": "row-change",
+  "v1_context": "\\ Win rates(\\%) & 27.87 & \\underline{29.11} & \\textbf{47.03} \\\\ \\bottomrule \\end{tabular} } \\end{subtable} \\b",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.12689",
+  "value": "29.11",
+  "classifier": "row-change",
+  "v1_context": " \\textbf{-0.2701} \\\\ Win rates(\\%) & 27.87 & \\underline{29.11} & \\textbf{47.03} \\\\ \\bottomrule \\end{tabular} } ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.08057",
+  "value": "89.68",
+  "classifier": "value-change",
+  "v1_context": " Nucleus & 10.03 & 56.05 & 89.68 & 2.37 \\\\ ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "56.05",
+   "56.05"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.08057",
+  "value": "87.03",
+  "classifier": "value-change",
+  "v1_context": " +DFD & \\textbf{24.59} & \\textbf{50.65} & \\textbf{87.03} & \\textbf{3.73} \\\\ \\midrule ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "50.65",
+   "50.65"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.08057",
+  "value": "93.73",
+  "classifier": "value-change",
+  "v1_context": " +DFD & \\textbf{13.03} & \\textbf{61.21} & \\textbf{93.73} & \\textbf{1.78} \\\\ \\midrule ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "61.21",
+   "61.21"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.08057",
+  "value": "91.20",
+  "classifier": "value-change",
+  "v1_context": " +DFD & \\textbf{20.07} & \\textbf{56.52} & \\textbf{91.20} & \\textbf{2.52} \\\\ \\bottomrule \\en",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "56.52",
+   "56.52"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.07591",
+  "value": "61.61",
+  "classifier": "value-change",
+  "v1_context": "6.67 & 62.40 & 58.83 & 51.82 & 44.59 & 55.19 \\\\ w/ GRPO & 62.19 & 61.61 & 52.41 & 61.42 & 66.33 & 61.63 & 56.03 & 50.04 & 59.62 \\\\ $",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "81.32"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.07591",
+  "value": "39.67",
+  "classifier": "row-change",
+  "v1_context": "extcolor{GREEN}{21.33} & \\textcolor{GREEN}{30.34} & \\textcolor{GREEN}{39.67} & \\textcolor{GREEN}{25.17} \\\\ \\rowcolor{gray!10} \\multicolu",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.07591",
+  "value": "5.08",
+  "classifier": "row-change",
+  "v1_context": ".33 & 32.33 & 56.83 \\\\ w/ GRPO & 81.50 & 86.75 & 77.75 & 92.85 & 85.08 & 97.83 & 91.30 & 91.33 & 85.00 & 79.67 & 72.00 & 82.00 \\\\ $\\",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.07591",
+  "value": "87.68",
+  "classifier": "value-change",
+  "v1_context": "xtit{DeepSeek-R1-Distill-Qwen-14B}} \\\\ w/o GRPO & 81.91 & 91.28 & 87.68 & 87.8 & 84.44 \\\\ w/ GRPO & 83 & 92.49 & 89.18 & 90.85 & 84.",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "66.47"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.03797",
+  "value": "87.21",
+  "classifier": "gone",
+  "v1_context": "84.31\\% (1.08) & 0.3798 (0.0179) & 86.39\\% (0.84) & 0.3581 (0.0154) & 87.21\\% (0.62) \\\\ \\bottomrule \\end{tabular} } \\end{ta",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03797",
+  "value": "9.89",
+  "classifier": "gone",
+  "v1_context": "\\textbf{0.2789 (0.0038)} & \\textbf{90.30\\% (0.18)} & \\textbf{451.03s (9.89)} & \\textbf{0.2763 (0.0066)} & \\textbf{90.38",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03797",
+  "value": "0.15",
+  "classifier": "gone",
+  "v1_context": "le Random Walk & \\textbf{0.0532 (0.0076)} & \\textbf{98.43\\% (0.15)} & 0.0422 (0.0024) & 98.71\\% (0.09) & \\textbf{0.0377 (0.0020)} &",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03797",
+  "value": "10.60",
+  "classifier": "gone",
+  "v1_context": " \\textbf{0.0422 (0.0024)} & 98.71\\% (0.09) & 442.87s (10.60) & \\textbf{0.0377 (0.0020)} & \\textbf{98",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03323",
+  "value": "2965.51",
+  "classifier": "value-change",
+  "v1_context": "\\% \\\\ & Distributional & 200.30 & 27.16\\% & 2493.94 & 12.52\\% & 2965.51 & 26.88\\% & 6412.20 & 37.40\\% & 1307.03 & 17.61\\% \\\\ & Mu",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "10.08"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03323",
+  "value": "27.16",
+  "classifier": "value-change",
+  "v1_context": "3\\% & 5920.69 & 27.74\\% & 1254.03 & 13.28\\%\\\\ & Noisy & 199.90 & 27.16\\% & 2487.67 & 12.20\\% & 2825.69 & 22.62\\% & 6120.58 & 32.04\\% & ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "112.21",
+   "110.64"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03323",
+  "value": "13.78",
+  "classifier": "gone",
+  "v1_context": " Gap & - & 16.35\\% & 14.62\\% & 13.84\\% & 15.39\\% & \\textbf{13.60\\%} & 13.78\\% & 14.02\\% & 18.09\\% & 15.17\\% \\\\[4pt] \\multirow{2}{*}{10x5",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03323",
+  "value": "2818.09",
+  "classifier": "value-change",
+  "v1_context": " & Dueling & 207.30 & 30.94\\% & \\textbf{2438.78} & \\textbf{9.93\\%} & 2818.09 & 21.23\\% & 5920.69 & 27.74\\% & 1254.03 & 13.28\\%\\\\ & Noi",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "11.28"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.15443",
+  "value": "79.4",
+  "classifier": "row-change",
+  "v1_context": "rline{74.3\u00b10.6} & \\underline{2.4} \\\\ \\textbf{{AdUE}} & 79.4\u00b11.3 & \\textbf{84.9\u00b10.6} & \\underline{86.8\u00b12.5} & \\textbf",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.15443",
+  "value": "78.1",
+  "classifier": "gone",
+  "v1_context": ".3\u00b11.8} & \\underline{59.5\u00b12.4} & \\underline{76.7\u00b11.6} & \\underline{78.1\u00b12.1} & \\underline{85.6\u00b10.4} & \\underline{86.3\u00b11.7} & \\underlin",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.15443",
+  "value": "4.1",
+  "classifier": "gone",
+  "v1_context": "D & 70.0\u00b12.6 & \\underline{83.7\u00b10.6} & 79.2\u00b14.1 & 57.2\u00b11.3 & 67.9\u00b11.5 & 65.",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.15443",
+  "value": "54.2",
+  "classifier": "gone",
+  "v1_context": ".3\u00b11.8 & 56.7\u00b12.6 & 53.9\u00b10.7 & 54.2\u00b16.4 & 52.1\u00b11.2 & 58.1\u00b15.0 & ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.15424",
+  "value": "2.15",
+  "classifier": "row-change",
+  "v1_context": "~\\cite{wang2023orthogonal} & 26.37\\tiny{$\\pm$2.27} & 19.15\\tiny{$\\pm$2.15} & 32.83\\tiny{$\\pm$0.25} & 11.99\\tiny{$\\pm$0.38} & 70.98\\tiny{$\\p",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.15424",
+  "value": "51.10",
+  "classifier": "row-change",
+  "v1_context": " 37.55 & 20.23 & 43.92 & 14.15 & 40.05 & 19.53 \\\\ GainLoRA~(O-LoRA) & 51.10 & 4.96 & \\textbf{51.14} & 5.57 & 52.47 & 4.78 & 51.68 & 5.86 \\\\ ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.15424",
+  "value": "11.39",
+  "classifier": "row-change",
+  "v1_context": " \\\\ MIGU+FT~\\cite{du2024unlocking} & - & - & - & - & 71.30 & 11.39 & 69.05 & 14.06 \\\\ EWC~\\cite{kirkpatrick2017overcoming} & 15",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.15424",
+  "value": "16.65",
+  "classifier": "row-change",
+  "v1_context": "81 & 45.53 \\\\ IncLoRA~\\cite{wang2023orthogonal} & 12.33 & 41.93 & 16.65 & 36.56 & 61.19 & 13.63 & 62.46 & 15.92 \\\\ C-LoRA~\\cite{smit",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.02891",
+  "value": "0.05",
+  "classifier": "gone",
+  "v1_context": "\\_count} & 0.29 & 1 & 0.05 & 0.15 & 0.29 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.02891",
+  "value": "0.29",
+  "classifier": "gone",
+  "v1_context": "\\hline \\textbf{pun\\_count} & 1 & 0.29 & & 0.06 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.02891",
+  "value": "0.20",
+  "classifier": "gone",
+  "v1_context": " & 0.13 & 1 & 0.20 & 0.15 & \\m",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.02891",
+  "value": "0.15",
+  "classifier": "formatting",
+  "v1_context": " & 1 & 0.05 & 0.15 & 0.29 & 0.95 ",
+  "vn_variants": [
+   "0.150"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.12624",
+  "value": "82.78",
+  "classifier": "gone",
+  "v1_context": " 83.17 & 80.70 & \\multicolumn{1}{c}{82.78} & \\multicolumn{1}{c}{62.24} & \\multicolumn{1}",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.12624",
+  "value": "63.42",
+  "classifier": "gone",
+  "v1_context": "6 & 65.47 & 58.62 & 63.42 & 84.48 & 83.17 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.12624",
+  "value": "94.11",
+  "classifier": "gone",
+  "v1_context": "2} & \\textbf{94.18} & \\textbf{93.54} & \\textbf{94.11} & \\textbf{90.87} & \\textbf{89.78} & \\t",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.12624",
+  "value": "65.21",
+  "classifier": "gone",
+  "v1_context": "0} & \\textbf{66.07} & \\textbf{61.75} & \\textbf{65.21} & \\textbf{85.25} & \\textbf{83.94} & 81",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03280",
+  "value": "17.85",
+  "classifier": "gone",
+  "v1_context": "athbf{0.911}$/$25.2$ & $\\mathbf{-0.306}$/$19.72$ & $\\mathbf{-1.598}$/$17.85$ & $\\mathbf{-9.778}$/$117.85$\\\\ Old & $0.908$/$2.01$ & $",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03280",
+  "value": "0.85",
+  "classifier": "gone",
+  "v1_context": "Taxi}. \\begin{table}[t] \\centering \\begin{tabular}{ccc} \\scalebox{0.85}{ \\begin{tabular}{c@{}c@{}c@{}c} \\textcolor{yellow}{S}",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.03280",
+  "value": "3.29",
+  "classifier": "row-change",
+  "v1_context": "$3.33$ & $3.33$ & $3.33$ & $3$\\\\ \\quad $\\pi_{\\text{ATM}}$ & $3.29$ & $3.29$ & $3.29$ & $3.29$ & $0.25$ \\\\ \\quad $V^*_{\\M_{k",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.03280",
+  "value": "0.908",
+  "classifier": "gone",
+  "v1_context": "mathbf{-1.598}$/$17.85$ & $\\mathbf{-9.778}$/$117.85$\\\\ Old & $0.908$/$2.01$ & $-0.359$/$1.66$ & $3.29$/$1.81$ & $3.29$/$38.4$ \\\\ ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.11051",
+  "value": "0.107",
+  "classifier": "gone",
+  "v1_context": "$ 0.0073 & 0.100 $\\pm$ 0.0028 & 0.154 $\\pm$ 0.0035 \\\\ & 0.3 & 0.107 $\\pm$ 0.0075 & 0.118 $\\pm$ 0.0031 & \\textbf{0.157 $\\pm$ 0.0034} ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.11051",
+  "value": "0.162",
+  "classifier": "gone",
+  "v1_context": "$ 0.0040 & 0.220 $\\pm$ 0.0040 \\\\ & 0.7 & 0.138 $\\pm$ 0.0077 & 0.162 $\\pm$ 0.0037 & 0.213 $\\pm$ 0.0038 \\\\ \\midrule \\multirow{",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.11051",
+  "value": "0.153",
+  "classifier": "row-change",
+  "v1_context": "$ 0.0051 \\\\ EMNS\\scriptsize{ (en)} & 0.099 $\\pm$ 0.0164 & \\textbf{0.153 $\\pm$ 0.0205} & 0.064 $\\pm$ 0.0126 & 0.094 $\\pm$ 0.0184 \\\\ E",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.11051",
+  "value": "0.0",
+  "classifier": "formatting",
+  "v1_context": "each system was evaluated using three different temperature settings: 0.0, 0.3, and 0.7. All experiments were conducted on a single NVIDIA ",
+  "vn_variants": [
+   "0",
+   "000"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.11314",
+  "value": "35.86",
+  "classifier": "gone",
+  "v1_context": " \\textbf{MATHOAI} & \\textbf{GPQA} \\\\ \\midrule First & First & 74.40 & 35.86 \\\\ First & Last & 76.20 & 36.36 \\\\ Last & First & 75.80 & 35.86 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.11314",
+  "value": "34.85",
+  "classifier": "gone",
+  "v1_context": "6.20 & 36.36 \\\\ Last & First & 75.80 & 35.86 \\\\ Last & Last & 75.00 & 34.85 \\\\ \\bottomrule \\end{tabular} \\caption{Performance comparison ac",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.11314",
+  "value": "35.86",
+  "classifier": "gone",
+  "v1_context": " \\textbf{MATHOAI} & \\textbf{GPQA} \\\\ \\midrule First & First & 74.40 & 35.86 \\\\ First & Last & 76.20 & 36.36 \\\\ Last & First & 75.80 & 35.86 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.11314",
+  "value": "74.40",
+  "classifier": "gone",
+  "v1_context": "bf{DR} & \\textbf{MATHOAI} & \\textbf{GPQA} \\\\ \\midrule First & First & 74.40 & 35.86 \\\\ First & Last & 76.20 & 36.36 \\\\ Last & First & 75.80 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.05387",
+  "value": "31.01",
+  "classifier": "row-change",
+  "v1_context": "& 21.24 & 2.6533 & 70.53 & 2.6485 & 70.54 \\\\ Qwen-2.5-0.5B & 4.2494 & 31.01 & 4.2465 & 31.01 & 1.8132 & 74.31 & 1.7217 & 74.55 \\\\ LLaMA-3.1-",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.05387",
+  "value": "31.01",
+  "classifier": "row-change",
+  "v1_context": "& 21.24 & 2.6533 & 70.53 & 2.6485 & 70.54 \\\\ Qwen-2.5-0.5B & 4.2494 & 31.01 & 4.2465 & 31.01 & 1.8132 & 74.31 & 1.7217 & 74.55 \\\\ LLaMA-3.1-",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.05387",
+  "value": "74.55",
+  "classifier": "row-change",
+  "v1_context": ".5-0.5B & 4.2494 & 31.01 & 4.2465 & 31.01 & 1.8132 & 74.31 & 1.7217 & 74.55 \\\\ LLaMA-3.1-8B & 1.3209 & 57.23 & 1.3193 & 57.13 & 1.3927 & 87.",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.05387",
+  "value": "71.90",
+  "classifier": "row-change",
+  "v1_context": "0.2810 & 19.15 & 1.00 & 40.30 \\\\ Layer 10 & \\textbf{0.3209} & 62.45 & 71.90 & \\textbf{53.50} \\\\ Layer 11 & \\textbf{0.3209} & \\textbf{72.65} ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2503.15055",
+  "value": "0.15",
+  "classifier": "gone",
+  "v1_context": "semantic organization. \\begin{table*}[htbp] \\small \\begin{tabular}{p{0.15\\textwidth}p{0.75\\textwidth}} \\toprule Cluster & Top Keywords (fre",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.15055",
+  "value": "3.2",
+  "classifier": "gone",
+  "v1_context": "chmarks including GPT-4o, the general-purpose reasoning model Granite-3.2-2B \\cite{granite-3.2-2b-instruct}, and cybersecurity-focused LLMs ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.15055",
+  "value": "0.68",
+  "classifier": "gone",
+  "v1_context": "textbf{0.10} \\\\ Granite-3.2-2b-Instruct & 0.74 & 0.39 & 0.58 & 0.68 & 0.73 & 0.06 & 0.20 \\\\ Llama-Primus-Instruct & 0.71 & 0.2",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2503.15055",
+  "value": "0.58",
+  "classifier": "gone",
+  "v1_context": ".08 & \\textbf{0.10} \\\\ Granite-3.2-2b-Instruct & 0.74 & 0.39 & 0.58 & 0.68 & 0.73 & 0.06 & 0.20 \\\\ Llama-Primus-Instruct & 0.7",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.08528",
+  "value": "0.415",
+  "classifier": "gone",
+  "v1_context": "{$\\pm$0.005} & {0.584}\\tiny{$\\pm$0.008} & {0.703}\\tiny{$\\pm$0.010} & {0.415}\\tiny{$\\pm$0.013} & {0.560}\\tiny{$\\pm$0.009} \\\\ \\cmidrule{1-",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.08528",
+  "value": "0.565",
+  "classifier": "gone",
+  "v1_context": " {+ Remix} & {0.751}\\tiny{$\\pm$0.006} & {0.825}\\tiny{$\\pm$0.005} & {0.565}\\tiny{$\\pm$0.017} & {0.711}\\tiny{$\\pm$0.011} & {0.423}\\tiny{$\\pm",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.08528",
+  "value": "0.475",
+  "classifier": "gone",
+  "v1_context": " {+ CutMix} & {0.743}\\tiny{$\\pm$0.011} & {0.830}\\tiny{$\\pm$0.003} & {0.475}\\tiny{$\\pm$0.009} & {0.602}\\tiny{$\\pm$0.016} & {0.347}\\tiny{$\\pm",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.08528",
+  "value": "0.013",
+  "classifier": "row-change",
+  "v1_context": "tiny{$\\pm$0.009} \\\\ {\\bf + GradMix} & \\textbf{{0.669}\\tiny{$\\pm$0.013}} & \\textbf{{0.546}\\tiny{$\\pm$0.007}} & \\textbf{{0.411}\\tiny{$\\p",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.20152",
+  "value": "63.9",
+  "classifier": "row-change",
+  "v1_context": "97.6} & 88.3 \\\\ Llama-3.3-70B-It & 93.5 & \\underline{63.9} & 98.1 & \\textbf{100.0} & \\underline{97.6} & 90.6 \\\\ ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.20152",
+  "value": "94.7",
+  "classifier": "value-change",
+  "v1_context": "midrule[1pt] Qwen-2.5-7B-It & 85.8 & 43.4 & 92.4 & 94.7 & 82.4 & 79.7 \\\\ Llama-3.1-8B-It & 84.8 & 47.3 ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "78.8"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.20152",
+  "value": "79.7",
+  "classifier": "row-change",
+  "v1_context": " Qwen-2.5-7B-It & 85.8 & 43.4 & 92.4 & 94.7 & 82.4 & 79.7 \\\\ Llama-3.1-8B-It & 84.8 & 47.3 & 95.5 & 97.8 ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.20152",
+  "value": "100.0",
+  "classifier": "value-change",
+  "v1_context": " Llama-3.3-70B-It & 93.5 & \\underline{63.9} & 98.1 & \\textbf{100.0} & \\underline{97.6} & 90.6 \\\\ \\midrule[1pt] ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "75.2",
+   "0.720",
+   "0.713"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.10582",
+  "value": "2.415",
+  "classifier": "row-change",
+  "v1_context": "l) & Spoken (ppl) & Avg (ppl) \\\\ \\midrule opt-350m base & 2.415 & 2.192 & 2.303 \\\\ ~~+~C4 0.90 & 2.342 & 2.091",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.10582",
+  "value": "2.454",
+  "classifier": "gone",
+  "v1_context": " --- & --- & --- \\\\ ~+~C4 0.90 & 2.564 & 2.344 & 2.454 \\\\ ~~~+~Subtitle 0.75 & 2.489 & 2.353 & 2.421 \\\\ ~~~~~+~B",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.10582",
+  "value": "2.193",
+  "classifier": "value-change",
+  "v1_context": " & 2.168 & 2.318 \\\\ ~~+~All four & 2.308 & 2.078 & 2.193 \\\\ ~~+~BOLT+Daily & 2.265 & 2.104 & 2.184 \\\\ \\bot",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "2.17"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.10582",
+  "value": "2.104",
+  "classifier": "gone",
+  "v1_context": " & 2.308 & 2.078 & 2.193 \\\\ ~~+~BOLT+Daily & 2.265 & 2.104 & 2.184 \\\\ \\bottomrule \\end{tabular} \\caption{Performance o",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.05478",
+  "value": "7.65",
+  "classifier": "row-change",
+  "v1_context": "& 8.08 \\\\ \\hline \\textbf{Phi-3 med} & Eng & 41 & 6.89 & 7.65 & 7.32 & 7.32 & 5.66 \\\\ & Ar & 18 & 2.36 & 8.51 & 0",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.05478",
+  "value": "20.0",
+  "classifier": "gone",
+  "v1_context": " 6.98 & 21.0 & 46.0 & 13.0 \\\\ & Ar & 100 & 17.7 & 7.18 & 20.0 & 36.0 & 9.34 \\\\ & Mixed & 100 & 17.1 & 7.87 & 16.0 & 3",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.05478",
+  "value": "0.00",
+  "classifier": "formatting",
+  "v1_context": " 7.65 & 7.32 & 7.32 & 5.66 \\\\ & Ar & 18 & 2.36 & 8.51 & 0.00 & 0.00 & 0.00 \\\\ \\hline \\textbf{Llama 3 8B} & Eng & 1",
+  "vn_variants": [
+   "0"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.05478",
+  "value": "2.36",
+  "classifier": "gone",
+  "v1_context": "& 41 & 6.89 & 7.65 & 7.32 & 7.32 & 5.66 \\\\ & Ar & 18 & 2.36 & 8.51 & 0.00 & 0.00 & 0.00 \\\\ \\hline \\textbf{Llama 3 8B} & ",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.01131",
+  "value": "25.7",
+  "classifier": "value-change",
+  "v1_context": "805 & 65.7 \\\\ SpinConv & 406 & 36.2 \\\\ GemNet-OC & 286 & 25.7 \\\\ eSCN & 283 & \\textbf{20.5} \\\\ EquiformerV2 & 285 & \\",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "3.08"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2507.01131",
+  "value": "78.3",
+  "classifier": "value-change",
+  "v1_context": " & Force MAE \\\\ & (meV) & (meV/\\AA) \\\\ \\midrule SchNet & 1400 & 78.3 \\\\ DimeNet++ & 805 & 65.7 \\\\ SpinConv & 406 & 36.2 \\\\ G",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "4.85"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.01131",
+  "value": "122.5",
+  "classifier": "row-change",
+  "v1_context": " & 8.86M \\\\ TDN (L=1) & 583.1 & 4.42M \\\\ Equiformer (L=2) & 122.5 & 18.19M \\\\ TDN (L=2) & 199.7 & 4.42M \\\\ Equiformer (L",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2507.01131",
+  "value": "142.9",
+  "classifier": "row-change",
+  "v1_context": "& 4.42M \\\\ Equiformer (L=3) & 48.4 & 33.43M \\\\ TDN (L=3) & 142.9 & 4.42M \\\\ \\bottomrule \\end{tabular}} \\end{sc} \\label{tab: th",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.11128",
+  "value": "50.3",
+  "classifier": "row-change",
+  "v1_context": " 0.046 & \\textbf{0.358 $\\pm$ 0.070} \\\\ FID $\\downarrow$ & 148.2 $\\pm$ 50.3 & 171.5 $\\pm$ 53.6 & 271.8 $\\pm$ 47.6 & \\textbf{140.6 $\\pm$ 51.3}",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.11128",
+  "value": "54.07",
+  "classifier": "row-change",
+  "v1_context": "ow$ & \\textbf{125.89 $\\pm$ 44.13} & 142.08 $\\pm$ 49.26 & 253.52 $\\pm$ 54.07 & 127.29 $\\pm$ 49.95 \\\\ kid $\\downarrow$ & 0.0947 $\\pm$ 0.0652 &",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.11128",
+  "value": "42.53",
+  "classifier": "row-change",
+  "v1_context": "$\\downarrow$ & 157.11 $\\pm$ 49.91 & 183.24 $\\pm$ 50.73 & 279.13 $\\pm$ 42.53 & \\textbf{145.94 $\\pm$ 50.85} \\\\ kid $\\downarrow$ & 0.0930 $\\pm$",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.11128",
+  "value": "2.08",
+  "classifier": "row-change",
+  "v1_context": "bf{0.6261 $\\pm$ 0.1026} \\\\ avg\\_psnr $\\uparrow$ & \\textbf{21.23 $\\pm$ 2.08} & 20.72 $\\pm$ 2.37 & 17.09 $\\pm$ 2.31 & 20.98 $\\pm$ 2.05 \\\\ avg\\",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2505.13913",
+  "value": "130.93",
+  "classifier": "gone",
+  "v1_context": "76.22 & 6.6e-133 & 0.04 & 0.839\\tabularnewline & 4 (N/V len) & 962 & 130.93 & 8.3e-135 & 9.69 & 6.7e-05\\textbf{{*}{*}}\\tabularnewline \\end{",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.13913",
+  "value": "1.48",
+  "classifier": "value-change",
+  "v1_context": "textbf{{*}{*}}\\tabularnewline & 3 (Family) & 106 & 16.70 & 5.8e-12 & 1.48 & 0.227\\tabularnewline & 4 (N/V len) & 106 & 13.40 & 4.9e-12 & 3",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "5.318"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.13913",
+  "value": "193.61",
+  "classifier": "gone",
+  "v1_context": "86 & 586.46 & 1.8e-109 & \u2013 & \u2013\\tabularnewline & 2 (Lg area) & 1486 & 193.61 & 1.3e-133 & 45.19 & 6.0e-28\\textbf{{*}{*}}\\tabularnewline & 3",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2505.13913",
+  "value": "16.70",
+  "classifier": "value-change",
+  "v1_context": " & 8.58 & 3.9e-05\\textbf{{*}{*}}\\tabularnewline & 3 (Family) & 106 & 16.70 & 5.8e-12 & 1.48 & 0.227\\tabularnewline & 4 (N/V len) & 106 & 1",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "0.539"
+  ],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2509.17292",
+  "value": "32.68",
+  "classifier": "gone",
+  "v1_context": "t{Labeling} (from 38.18\\% to 30.30\\%), \\textit{Personalization} (from 32.68\\% to 17.65\\%), and \\textit{Mental Filter} (from 43.44\\% to 32.79",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2509.17292",
+  "value": "32.79",
+  "classifier": "gone",
+  "v1_context": "from 32.68\\% to 17.65\\%), and \\textit{Mental Filter} (from 43.44\\% to 32.79\\%). The largest reduction was observed for \\textit{Emotional Re",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2509.17292",
+  "value": "30.30",
+  "classifier": "gone",
+  "v1_context": ", with substantial improvements in \\textit{Labeling} (from 38.18\\% to 30.30\\%), \\textit{Personalization} (from 32.68\\% to 17.65\\%), and \\tex",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2509.17292",
+  "value": "100.0",
+  "classifier": "formatting",
+  "v1_context": "nts & 415 (9.2\\%) \\\\ \\hline \\textbf{Total} & \\textbf{4,510 (100.0\\%)} \\\\ \\hline \\end{tabularx} \\caption{Statistics of the KoACD Da",
+  "vn_variants": [
+   "100"
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": false
+ },
+ {
+  "paper": "2501.01453",
+  "value": "58.5",
+  "classifier": "value-change",
+  "v1_context": " $23.3$ & $21.9$ & $35.4$ & $31.4$ \\\\ \\hline \\textbf{FNO} & $37.4$ & $58.5$ & $25.6$ & $15.6$ & $29.6$ & $39.2$ \\\\ \\hline \\textbf{WNO} & $24",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "50.4"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.01453",
+  "value": "33.0",
+  "classifier": "value-change",
+  "v1_context": "2.3$ \\\\ \\hline \\textbf{scOT-B} & $53.1$ & $62.3$ & $24.8$ & $19.7$ & $33.0$ & $33.7$ \\\\ \\hline \\textbf{scOT-T} & $52.3$ & $62.7$ & $23.9$ & ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "30.6"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.01453",
+  "value": "36.0",
+  "classifier": "value-change",
+  "v1_context": " $29.3$ \\\\ \\hline \\textbf{CNO} & $49.4$ & $57.1$ & $23.7$ & $23.4$ & $36.0$ & $29.8$ \\\\ \\hline \\textbf{FNO} & $44.3$ & $59.2$ & $20.4$ & $18",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "36.4"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2501.01453",
+  "value": "12.5",
+  "classifier": "value-change",
+  "v1_context": "\\textbf{scOT-T} & $20.7$ & $6.48$ & $49.25$ \\\\ \\hline \\textbf{CNO} & $12.5$ & $6.04$ & $12.02$ \\\\ \\hline \\textbf{FNO} & $10.9$ & $\\mathbf{2.",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "11.7"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.14257",
+  "value": "62.8",
+  "classifier": "value-change",
+  "v1_context": ": Qwen2.5-3B-Instruct} \\\\ \\midrule \\rowcolor{gray!15} CoT Prompting & 62.8 & 60.2 & 6.7 & 4.5 & 33.6 \\\\ \\rowcolor{gray!15} CoT Distillation ",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "6.7"
+  ],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.14257",
+  "value": "25.8",
+  "classifier": "row-change",
+  "v1_context": "3.2 & 5.6 & 4.5 & 30.7 \\\\ \\rowcolor{gray!15} Agent Prompting & 30.5 & 25.8 & 4.4 & 3.0 & 15.9 \\\\ \\rowcolor{gray!15} Agent Distillation & 60.",
+  "vn_variants": [],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.14257",
+  "value": "3.0",
+  "classifier": "formatting",
+  "v1_context": ".5 & 30.7 \\\\ \\rowcolor{gray!15} Agent Prompting & 30.5 & 25.8 & 4.4 & 3.0 & 15.9 \\\\ \\rowcolor{gray!15} Agent Distillation & 60.2 & 65.4 & 15",
+  "vn_variants": [
+   "3",
+   "3."
+  ],
+  "vn_cell_values": [],
+  "row_label_survives": true
+ },
+ {
+  "paper": "2509.14257",
+  "value": "50.8",
+  "classifier": "value-change",
+  "v1_context": "extbf{61.4} & \\textbf{76.8} & \\textbf{32.2} & \\textbf{72.8} & \\textbf{50.8} \\\\ \\midrule \\multicolumn{10}{c}{\\textbf{Student: Qwen2.5-3B-Inst",
+  "vn_variants": [],
+  "vn_cell_values": [
+   "43.0"
+  ],
+  "row_label_survives": true
+ }
+]

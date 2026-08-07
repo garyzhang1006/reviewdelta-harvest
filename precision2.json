@@ -1,0 +1,36 @@
+{
+ "n": 100,
+ "precision": 0.9,
+ "not_result": {
+  "dataset or model specification": [
+   3,
+   75
+  ],
+  "experimental setting, not an outcome": [
+   17,
+   19,
+   62,
+   88
+  ],
+  "model-name version digit": [
+   52,
+   89
+  ],
+  "hyperparameter": [
+   54,
+   55
+  ]
+ },
+ "ambiguous": [
+  49,
+  50,
+  51,
+  86
+ ],
+ "clustered_ci": [
+  0.82,
+  0.96
+ ],
+ "papers": 27,
+ "note": "second tranche, deduplicated extractor, same annotator and protocol as precision.json; index 88 is flagged not-result (its ambiguity is recorded in the blind file)"
+}
