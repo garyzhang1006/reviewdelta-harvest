@@ -24,9 +24,46 @@ affordable.
 
 ## Quickstart
 
+Get it onto the machine:
+
+```bash
+git clone https://github.com/garyzhang1006/reviewdelta-harvest.git
+cd reviewdelta-harvest
+```
+
+Install the two dependencies (the fetch stages use only the standard library;
+`report.py` needs these):
+
+```bash
+pip install --user numpy scipy
+```
+
+Set your contact address and run:
+
 ```bash
 export REVIEWDELTA_CONTACT='you@example.edu'   # required, see "arXiv etiquette"
 python3 run_all.py
+```
+
+Expect 5 to 7 hours, almost all of it waiting on arXiv's 3-second courtesy
+delay rather than computing. Run it under `tmux` or `nohup` so a dropped ssh
+session does not kill it:
+
+```bash
+tmux new -s rd 'python3 run_all.py 2>&1 | tee run.log'
+```
+
+Watch it from another shell:
+
+```bash
+tail -f logs/shard*.log            # per-shard fetch progress and ETA
+cat pairs_shard*.jsonl | wc -l     # papers finished so far
+```
+
+When it finishes, every number lands in `results/report.txt`:
+
+```bash
+less results/report.txt
 ```
 
 That is the whole thing. `run_all.py` runs five stages in order (metadata,
@@ -146,3 +183,24 @@ makes sense when you want most of the archive rather than a filtered slice.
 
 Python 3.8 or newer, `numpy` and `scipy` for `report.py`, `matplotlib` for
 `make_figure.py`. The fetch stages use only the standard library.
+
+```bash
+pip install --user numpy scipy matplotlib
+```
+
+`run_all.py` checks all of this in a preflight pass and refuses to start with a
+list of what is missing, rather than failing three hours into a fetch.
+
+## If something goes wrong
+
+| symptom | cause | fix |
+|---|---|---|
+| `PREFLIGHT FAILED ... REVIEWDELTA_CONTACT` | contact address unset | `export REVIEWDELTA_CONTACT='you@example.edu'` |
+| `VALIDATION FAILED` from `arxiv_meta.py` | API path is wrong for this host | nothing; `run_all.py` falls back to `harvest.py` on its own |
+| shards exit nonzero | arXiv throttled, or the job hit a walltime limit | rerun the same command; finished papers are kept |
+| `429` or `403` in a shard log | too many concurrent clients | rerun with `--nshards 4` |
+| a probe fails | usually a missing input from an earlier stage | `python3 run_all.py --force probes` after fixing |
+| want to start clean | stale state | `rm -rf .run_all_state.json results/` (keep `.source_cache/`) |
+
+Deleting `.source_cache/` is safe but expensive: it forces every probe to
+refetch from arXiv.
