@@ -2,3 +2,7 @@ logs/
 pairs_shard*.jsonl
 __pycache__/
 *.pyc
+
+.source_cache/
+results/
+.run_all_state.json

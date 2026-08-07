@@ -26,16 +26,46 @@ affordable.
 
 ```bash
 export REVIEWDELTA_CONTACT='you@example.edu'   # required, see "arXiv etiquette"
-
-python3 arxiv_meta.py --validate               # gate: must pass before anything else
-python3 arxiv_meta.py --all-2025               # metadata for the full frame, ~6 requests
-./run_local.sh 8                               # or: sbatch --export=ALL submit_fetch.sbatch
-python3 fetch_pairs.py --merge
-python3 report.py
+python3 run_all.py
 ```
 
-`report.py` prints every number the paper quotes. It reads only the committed
-data files and needs no network.
+That is the whole thing. `run_all.py` runs five stages in order (metadata,
+sharded fetch, merge, the seven robustness probes, report), skips any stage
+whose output already exists, and writes `results/report.txt`. Kill it and rerun
+the same command to resume; finished papers are never refetched.
+
+```bash
+python3 run_all.py --plan               # show what would run, touch nothing
+python3 run_all.py --stages merge report
+python3 run_all.py --force probes       # redo a finished stage
+python3 run_all.py --nshards 16         # wider fetch parallelism
+```
+
+On SLURM, run the fetch as an array job and let `run_all.py` do the rest:
+
+```bash
+mkdir -p logs && sbatch --export=ALL submit_fetch.sbatch
+python3 run_all.py --stages merge probes report
+```
+
+`report.py` alone reproduces the current paper's numbers from the committed data
+with no network access.
+
+## Why the probes are cheap
+
+All seven robustness probes call `diff_arms.fetch_source` on papers the main
+fetch already retrieved. Without a cache, each probe repeats the entire network
+pass, so a full rerun costs eight passes rather than one.
+
+`diff_arms.py` therefore caches the post-comment-strip `.tex` per version under
+`.source_cache/`, gzipped and sharded by id prefix. A cache hit returns a string
+byte-identical to what the fetch would have returned, so extraction is
+unaffected. Writes go through a temp file and `os.replace`, so parallel shards
+never read a half-written entry, and a truncated entry is deleted and refetched
+rather than trusted.
+
+`run_all.py` drops `REVIEWDELTA_SLEEP` to 0.2s for the probe stage, since those
+read local disk. Set `REVIEWDELTA_CACHE=''` to disable caching entirely.
 
 ## Read this before running the metadata stage
 

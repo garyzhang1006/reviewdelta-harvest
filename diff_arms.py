@@ -17,7 +17,11 @@ import urllib.request, re, tarfile, io, gzip, json, os, sys, time, random
 from collections import Counter
 
 UA = {'User-Agent': 'ReviewDelta/1.0 (academic research; contact via paper)'}
-SLEEP = 4.0
+# Probes import SLEEP by value at import time, so the delay is set from the
+# environment rather than patched afterwards. run_all.py drops it once the
+# source cache is warm, where the probes read from disk and a 4-second pause
+# between local reads would add hours for nothing.
+SLEEP = float(os.environ.get('REVIEWDELTA_SLEEP', '4.0'))
 OUT = 'pairs.jsonl'
 
 NUM = re.compile(r'(?<![\w.])(\d{1,4}\.\d{1,3})(?![\w])')
@@ -25,9 +29,70 @@ TABULAR = re.compile(r'\\begin\{tabular\}.*?\\end\{tabular\}', re.S)
 PCT_PM = re.compile(r'(\d{1,4}\.\d{1,3})\s*(?:\\%|%|\\pm)')
 COMMENT_LINE = re.compile(r'(?<!\\)%.*')
 
+# Source cache. Every robustness probe (anchored_full, recall_probe,
+# drop_taxonomy, baseline, longitudinal, claim_probe, fp_survival) calls
+# fetch_source on the same papers this module already fetched, so without a
+# cache a full rerun costs one network pass per probe. Caching the
+# post-comment-strip .tex here means all callers share one pass, whichever
+# import style they use.
+#
+# What is stored is the exact string fetch_source would have returned, so a
+# cache hit and a cache miss produce identical extraction. Set
+# REVIEWDELTA_CACHE='' to disable.
+CACHE_DIR = os.environ.get('REVIEWDELTA_CACHE', '.source_cache')
+
+
+def _cache_path(arxiv_id):
+    # Shard by id prefix: one flat directory with 8k+ entries is slow on NFS,
+    # which is where cluster scratch usually lives.
+    safe = re.sub(r'[^\w.\-]', '_', arxiv_id)
+    return os.path.join(CACHE_DIR, safe[:4], safe + '.tex.gz')
+
+
+def cache_read(arxiv_id):
+    if not CACHE_DIR:
+        return None
+    p = _cache_path(arxiv_id)
+    if not os.path.exists(p):
+        return None
+    try:
+        # Binary, not text mode: text mode applies universal-newline translation
+        # and would silently turn a source file's \r\n into \n, so a cache hit
+        # would not be byte-identical to the fetch it replaces.
+        with gzip.open(p, 'rb') as fh:
+            return fh.read().decode('utf-8')
+    except Exception:
+        # A truncated entry (killed mid-write) must not poison the run.
+        try:
+            os.remove(p)
+        except OSError:
+            pass
+        return None
+
+
+def cache_write(arxiv_id, tex):
+    if not CACHE_DIR or not tex:
+        return
+    p = _cache_path(arxiv_id)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    tmp = p + f'.tmp{os.getpid()}'
+    try:
+        # Write-then-rename so concurrent shards never read a partial file.
+        with gzip.open(tmp, 'wb') as fh:
+            fh.write(tex.encode('utf-8'))
+        os.replace(tmp, p)
+    except Exception:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+
 
 def fetch_source(arxiv_id, tries=3):
     """Concatenated .tex for one arXiv version, or '' if unavailable."""
+    hit = cache_read(arxiv_id)
+    if hit is not None:
+        return hit
     url = f"https://arxiv.org/e-print/{arxiv_id}"
     raw = None
     delay = 15
@@ -60,7 +125,9 @@ def fetch_source(arxiv_id, tries=3):
             return ''
     # Commented-out LaTeX is not a reported result. Leaving it in makes
     # "dropped" fire when an author merely uncomments an old table.
-    return COMMENT_LINE.sub('', tex)
+    tex = COMMENT_LINE.sub('', tex)
+    cache_write(arxiv_id, tex)
+    return tex
 
 
 def result_numbers(tex):
