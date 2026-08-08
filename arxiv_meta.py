@@ -106,14 +106,24 @@ def month_bounds(month):
     return f"{y}{m:02d}010000", f"{y}{m:02d}{calendar.monthrange(y, m)[1]:02d}2359"
 
 
-def harvest_slice(cat, month, seen):
-    """Every entry arXiv lists for one category-month. Pages until exhausted."""
+def harvest_slice(cat, month, seen, cap=None):
+    """Every entry arXiv lists for one category-month. Pages until exhausted.
+
+    cap bounds the candidates taken per category-month, chronological head
+    first, which is what the original listing-page harvest did with its
+    show=1000 limit. Use cap=1000 to reproduce that frame's sampling on a
+    session-limited machine; the full frame for the same months is roughly
+    2.5x larger and costs a proportionally longer source fetch.
+    """
     lo, hi = month_bounds(month)
     q = f"cat:{cat} AND submittedDate:[{lo} TO {hi}]"
     got, start, total = [], 0, None
     while True:
+        if cap is not None and start >= cap:
+            break
+        take = SLICE if cap is None else min(SLICE, cap - start)
         url = (f"{API}?search_query={urllib.parse.quote(q)}"
-               f"&start={start}&max_results={SLICE}")
+               f"&start={start}&max_results={take}")
         xml = _get(url)
         if not xml:
             print(f"    {cat} {month}: empty response at start={start}",
@@ -199,6 +209,9 @@ def main():
     ap.add_argument("--months", nargs="+", default=hv.MONTHS)
     ap.add_argument("--all-2025", action="store_true",
                     help="every month of 2025 instead of --months")
+    ap.add_argument("--cap", type=int, default=None,
+                    help="max candidates per category-month (1000 reproduces "
+                         "the original listing-page frame)")
     ap.add_argument("--out", default=META)
     a = ap.parse_args()
 
@@ -224,7 +237,7 @@ def main():
     with open(a.out, "a") as fh:
         for cat in a.cats:
             for mo in months:
-                for r in harvest_slice(cat, mo, seen):
+                for r in harvest_slice(cat, mo, seen, cap=a.cap):
                     fh.write(json.dumps(r) + "\n")
                     nnew += 1
                 fh.flush()

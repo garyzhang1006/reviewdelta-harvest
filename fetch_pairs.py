@@ -85,6 +85,9 @@ def main():
                     help="fold every shard file into pairs.jsonl and exit")
     ap.add_argument("--sleep", type=float, default=da.SLEEP,
                     help="seconds between source fetches (default 4, arXiv-friendly)")
+    ap.add_argument("--max-seconds", type=float, default=0,
+                    help="exit cleanly after this many seconds; finished papers "
+                         "are kept and a rerun resumes (for session-capped hosts)")
     a = ap.parse_args()
 
     if a.merge:
@@ -112,6 +115,10 @@ def main():
     t0 = time.time()
     with open(out, "a") as fh:
         for i, rec in enumerate(todo, 1):
+            if a.max_seconds and time.time() - t0 > a.max_seconds:
+                print(f"  deadline after {i - 1}/{len(todo)} papers; "
+                      "rerun to resume", file=sys.stderr)
+                break
             r = da.diff(rec)
             fh.write(json.dumps(r) + "\n")
             fh.flush()          # a killed task loses at most the current paper

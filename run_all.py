@@ -182,11 +182,12 @@ def stage_merge(a):
 def stage_probes(a):
     """The seven robustness analyses, served from the warm source cache.
 
-    Sleep drops to 0.2s because these read local disk. A probe that still
-    misses the cache falls back to a real fetch, and 0.2s keeps that polite
-    without costing hours on the hits.
+    Sleep drops to 1s. Cache hits return instantly, so the sleep is the cost;
+    a probe paper missing from the cache (the held-out cells, which the main
+    fetch never touches) falls back to a real arXiv fetch, and 1s is the
+    fastest polite rate for those misses.
     """
-    env = {"REVIEWDELTA_SLEEP": "0.2"}
+    env = {"REVIEWDELTA_SLEEP": "1.0"}
     failed = []
     for script, out in PROBES:
         if not os.path.exists(script):
