@@ -110,10 +110,15 @@ def main():
                 print(f"  resume {name}: {e}", flush=True)
 
     try:
-        # Metadata. The validate gate decides API vs the slow proven scraper;
-        # the scraper does not fit this session alongside the fetch, so a
-        # validation failure ends the run with a clear message instead.
-        if not (os.path.exists("arms.json") and os.path.getsize("arms.json") > 100000):
+        # Metadata. The repo ships the ORIGINAL 2,096-record meta.jsonl and its
+        # arms.json, so their mere presence proves nothing about the expanded
+        # frame; skip only when the candidate count says the capped harvest
+        # (about 10k) already ran. The validate gate decides API vs the slow
+        # proven scraper; the scraper does not fit this session alongside the
+        # fetch, so a validation failure ends the run with a clear message.
+        n_meta = sum(1 for _ in open("meta.jsonl")) if os.path.exists("meta.jsonl") else 0
+        print(f"metadata records present: {n_meta}", flush=True)
+        if n_meta < 9000:
             if run([sys.executable, "arxiv_meta.py", "--validate"]) != 0:
                 save_outputs()
                 sys.exit("API validation failed. Run harvest.py on a host "
