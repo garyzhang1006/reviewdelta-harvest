@@ -26,7 +26,7 @@ anch = [r for r in (json.loads(l) for l in open('anchored_full.jsonl'))
 for r in anch:
     r['dropped_share'] = r['anchored_share']
 
-fig, axes = plt.subplots(1, 3, figsize=(8.2, 2.1))
+fig, axes = plt.subplots(1, 3, figsize=(8.2, 1.9))
 for ax, rows, title in [(axes[0], ok, 'Both rules'), (axes[1], okc, 'Clean rule only'),
                         (axes[2], anch, 'Anchored (position-strict)')]:
     d = np.array([r['dropped_share'] for r in rows])
