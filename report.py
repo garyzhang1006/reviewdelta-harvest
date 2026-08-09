@@ -226,7 +226,8 @@ print(f"version-count balance: {np.mean(tv):.2f} vs {np.mean(cv):.2f}, "
       f"diff {obs:+.2f}, p = {(np.abs(nv) >= abs(obs)).mean():.2f}")
 
 se = np.sqrt(t.var(ddof=1)/len(t) + c.var(ddof=1)/len(c))
-print(f"arm-test MDE (80% power, two-sided .05): {se*(1.96+0.84):.3f}")
+MDE = se*(1.96+0.84)
+print(f"arm-test MDE (80% power, two-sided .05): {MDE:.3f}")
 d_all = np.array([r['dropped_share'] for r in ok])
 dr_ = np.array([r['dropped'] for r in ok]); nv_ = np.array([r['n_v1'] for r in ok])
 rB = np.random.default_rng(0); idxB = np.arange(len(ok))
@@ -495,7 +496,8 @@ if os.path.exists('anchored_full.jsonl'):
                     if r['arm'] == 'control' and r['id'] in afm])
     oan, pan = perm_p(ta_, ca_)
     print(f"anchored arm test: {ta_.mean():.3f} vs {ca_.mean():.3f}, diff {oan:+.3f}, p={pan:.2f}")
-print(f"effective MDE at 50% control contamination: {0.097/0.5:.3f}")
+# Halving the true labeled fraction doubles the detectable-effect floor.
+print(f"effective MDE at 50% control contamination: {MDE/0.5:.3f}")
 print(f"censoring: submission month vs version count Spearman rho={rho_:.2f} p={pvr:.4f}")
 if 'cv25' in cellmap and 'cv25b' in cellmap:
     def _ad(rows_):
@@ -620,6 +622,11 @@ if os.path.exists('anchored_full.jsonl'):
     print(f"anchored matcher: zero {(aanc == 0).mean():.0%} "
           f"mid {((aanc > 0) & (aanc <= 0.2)).mean():.1%} >20% {(aanc > 0.2).mean():.0%}  "
           f"pooled {apool:.1%} mean {aanc.mean():.3f} median {np.median(aanc):.3f}")
+    rngA = np.random.default_rng(0)
+    bzA = [(aanc[rngA.integers(0, len(aanc), len(aanc))] == 0).mean()
+           for _ in range(20000)]
+    print(f"anchored zero-share paper bootstrap 95% CI: "
+          f"[{np.percentile(bzA, 2.5):.0%}, {np.percentile(bzA, 97.5):.0%}]")
     zd = adoc == 0
     print(f"doc-zero papers ({zd.sum()}): anchored-zero {np.mean(aanc[zd] == 0):.0%}, "
           f"<=5% movement {np.mean(aanc[zd] <= 0.05):.0%}, "
@@ -701,7 +708,9 @@ if os.path.exists('baseline.jsonl'):
             / sum(blm[r['id']]['n_v1'] for r in csub2))
     print(f"clean rule vs ambient on the same {len(csub)} papers: "
           f"{pc_:.1%} vs {pa_:.1%}; ex-outlier {pc2_:.1%} vs {pa2_:.1%}")
-    print(f"precision-corrected broad churn: "
+    # 0.139 is the FIRST TRANCHE's pooled broad churn, matching the tranche
+    # scope of the ambient baseline this section reports.
+    print(f"precision-corrected broad churn (first tranche): "
           f"{(0.139 - 0.18*(1 - 0.946))/0.82:.1%}")
     print(f"controls with empty comment field: "
           f"{sum(1 for r in ok if r['arm'] == 'control' and not r.get('comment', '').strip())}"

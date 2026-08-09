@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Figure 1: per-paper churn distribution under both extraction rules.
+"""Figure 1: per-paper churn distribution under three matchers.
 
-Reads pairs.jsonl and pairs_clean.jsonl, writes fig_bimodal.pdf. The exact-zero
-papers get their own bar so the histogram's first bin cannot blur the paper's
-central claim (half of papers change nothing) into the small-but-nonzero mass.
+Reads pairs.jsonl, pairs_clean.jsonl and anchored_full.jsonl, writes
+fig_bimodal.pdf. The exact-zero papers get their own bar so the histogram's
+first bin cannot blur the paper's central claim (half of papers change
+nothing) into the small-but-nonzero mass. The anchored panel shows the
+strictest matcher, where restructuring counts as churn, so the reader sees
+the 37% zero share next to the 53% instead of meeting it only in Table 2.
 """
 import json
 import numpy as np
@@ -18,9 +21,14 @@ def load(path):
 
 
 ok, okc = load('pairs.jsonl'), load('pairs_clean.jsonl')
+anch = [r for r in (json.loads(l) for l in open('anchored_full.jsonl'))
+        if r['status'] == 'ok' and r['anchored_total'] >= 5]
+for r in anch:
+    r['dropped_share'] = r['anchored_share']
 
-fig, axes = plt.subplots(1, 2, figsize=(8.2, 2.7))
-for ax, rows, title in [(axes[0], ok, 'Both rules'), (axes[1], okc, 'Clean rule only')]:
+fig, axes = plt.subplots(1, 3, figsize=(8.2, 2.1))
+for ax, rows, title in [(axes[0], ok, 'Both rules'), (axes[1], okc, 'Clean rule only'),
+                        (axes[2], anch, 'Anchored (position-strict)')]:
     d = np.array([r['dropped_share'] for r in rows])
     nz = d[d > 0]
     bins = np.linspace(0, 1, 21)
